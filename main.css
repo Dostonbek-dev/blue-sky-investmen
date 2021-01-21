@@ -9,6 +9,7 @@
 body,
 button {
     font-family: "Poppins", sans-serif;
+    outline: none;
 }
 
 .container {
@@ -112,7 +113,7 @@ header {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(43, 51, 59, 0.8);
+    /*background-color: rgba(43, 51, 59, 0.8);*/
     display: flex;
     justify-content: center;
     align-items: center;
