@@ -57,9 +57,9 @@ button {
 
 .bar {
     width: 1.9rem;
-    height: 1.5px;
+    height: 2px;
     border-radius: 2px;
-    background-color: #eee;
+    background-color: #ccc;
     transition: 0.5s;
     position: relative;
 }
@@ -70,7 +70,7 @@ button {
     position: absolute;
     width: inherit;
     height: inherit;
-    background-color: #eee;
+    background-color: #cccccc;
     transition: 0.5s;
 }
 
@@ -118,9 +118,13 @@ header {
     color: #fff;
     padding: 0 2rem;
 }
+.inner p{
+    color: #485461;
+}
 
 .title {
     font-size: 2.7rem;
+    color: #485461;
 }
 
 .btn {
