@@ -372,7 +372,7 @@ ul {
     border: 1px solid #d6c6b2;
     margin-right: 10px;
     font-size: 22px;
-    color: #d6c6b2;
+    color: #bf7b26;
     transition: all .3s;
 
 }
@@ -434,4 +434,20 @@ p{
     color: #28313b;
     font-weight: 600;
     font-size: 18px;
+}
+/* Footer */
+.footer{
+    width: 100%;
+    background: #00121b;
+    display: block;
+}
+.inner-footer{
+    width: 95%;
+    margin: auto;
+    display: flex;
+  flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
 }
