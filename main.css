@@ -104,6 +104,33 @@ header{
 }
 .hero-img img{
     margin: 80px;
-
-
 }
+/*services*/
+.services{
+    margin-top: 80px;
+}
+.container{
+    padding: 3rem;
+    display:flex;
+}
+.grid-wrapper,
+.services-content{
+    flex-basis: 50%;
+}
+.grid-wrapper{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    grid-gap: 2em;
+    padding: 2rem;
+}
+
+.grid-box{
+    background:darkslategray;
+    margin: 10px;
+    padding: 1rem;
+    text-align: center;
+}
+grid-box img{
+    width: 80px;
+    
+ }
