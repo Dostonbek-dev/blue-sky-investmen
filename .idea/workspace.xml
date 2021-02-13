@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18a12ac9-b584-4eed-a927-484f7bd66c55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/resurce/blog1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/blog2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/blog3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/branding.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/footer-agency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/header-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/hero-img.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/marketing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/mobileapp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/project-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/project-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/project-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/project-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/project-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/project-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/team-mockup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/team1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/team2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/team3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/team4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/webdesign.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oCbNr1MadIVBegwihSkojNtH31" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/resurce" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenono\WebstormProjects\blue-sky-investmen\img\resurce" />
+      <recent name="C:\Users\Lenono\WebstormProjects\blue-sky-investmen\img\about-us" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18a12ac9-b584-4eed-a927-484f7bd66c55" name="Default Changelist" comment="" />
+      <created>1612793483419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612793483419</updated>
+      <workItem from="1612793484523" duration="3474000" />
+      <workItem from="1613085880183" duration="3956000" />
+      <workItem from="1613221488318" duration="3005000" />
+    </task>
+    <task id="LOCAL-00001" summary="git push">
+      <created>1613086126549</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613086126549</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git push" />
+    <option name="LAST_COMMIT_MESSAGE" value="git push" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613085946499">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1613085946499" />
+    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1613086125354">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1613086125354" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1613086134277">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1613086134277" />
+  </component>
+</project>

@@ -1,0 +1,66 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins",sans-serif;
+}
+body h1{
+    color:#282f59;
+}
+body p{
+    color: #7C7C7C;
+}
+body a{
+    text-decoration: none;
+    color: ;
+}
+header{
+    background-image:url("./img/resurce/header-bg.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover ;
+    min-height: 100vh;
+
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    padding: 10px 50px;
+    align-items: center;
+}
+.navbar ul{
+    flex: 1;
+    text-align: right;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.logo{
+    width: 150px;
+}
+.ctn{
+    padding: 10px 30px;
+    background: linear-gradient(to bottom right, rgb(255, 207, 145),rgb(255, 111, 92));
+    border-radius: 50px;
+}
+.ctn:hover{
+    background: linear-gradient(to bottom right,rgb(255, 111, 92),rgb(255, 207, 145));
+}
+.row{
+    display: flex;
+    align-items: center;
+    padding-top:10rem;
+}
