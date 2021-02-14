@@ -7,6 +7,10 @@
 }
 body{
     font-family: "Poppins",sans-serif;
+    box-sizing: border-box;
+}
+#more{
+    display: none;
 }
 body h1{
     color:#282f59;
@@ -32,7 +36,8 @@ header{
     background-image:url("./img/resurce/header-bg.png");
     background-repeat: no-repeat;
     width: 100%;
-    background-size: cover ;
+    max-width: 100%;
+    background-size: contain;
     min-height: 100vh;
 
 }
@@ -88,13 +93,17 @@ header{
 .header-content p{
     margin-bottom: 20px;
 }
+#more2{
+    display: none;
+}
+.mockup-img img{
+    border-radius: 15px;
 
+}
 .learnmore{
     padding:10px 20px;
     border:1px solid tomato;
     border-radius:50px;
-    margin-right:30px;
-    margin-top: 150px!important;
     color:tomato;
 }
 .learnmore:hover{
@@ -185,13 +194,14 @@ header{
     margin-top:100px;
 }
 .numbers .num-text{
-    font-size:70px;
+    font-size:35px;
+    text-align: center;
     padding-left: 5rem;
-    padding-right: 50%;
+
 }
 .numbers p{
-    padding-left: 5rem;
-    padding-right: 50%;
+    padding: 5rem;
+  text-align: center;
 }
 .numbers .grid-box h1{
     font-size: 40px;
