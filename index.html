@@ -5,10 +5,17 @@
     <title>Blue Sky Investment</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 <header>
     <nav class="navbar">
+        <div class="theme">
+            <input id="checkbox" type="checkbox" class="checkbox">
+            <label for="checkbox" class="label">
+                <div class="ball"></div>
+            </label>
+        </div>
         <img src="img/resurce/logo.png"/>
         <ul class="nav-list">
             <li><a href="#">Home</a></li>
@@ -36,7 +43,7 @@
 </header>
 
 <!--services-->
-<section class="services">
+<section class="services" data-aos="fade-right">
 <div class="container">
     <div class="grid-wrapper">
         <div class="grid-box mobileapp">
@@ -75,7 +82,7 @@
   </div>
 </section>
 
-<section class="numbers">
+<section class="numbers" data-aos="fade-left">
    <h1 class="num-text">We Lead From Front</h1>
     <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. A iure nisi
@@ -111,7 +118,7 @@
 
 <!-- projects-->
 
-<section class="projects">
+<section class="projects" data-aos="zoom-in">
     <h1>Our latest project</h1>
     <div class="project-images">
         <div class="prj-img">
@@ -166,12 +173,8 @@
 
     </div>
 </section>
-
-
-
-
 <!--team-->
-<section class="team">
+<section class="team" data-aos="flip-left">
     <h1 class="team-h1">Meat our Team</h1>
     <div class="grid-wrapper">
         <div class="team-mem">
@@ -221,7 +224,7 @@
     </div>
 </section>
 <!--Tesimonials-->
-<section class="testimonials">
+<section class="testimonials" data-aos="fade-down-left">
     <h1  class="testimonials-h1">What Our Client Says</h1>
     <p class="testimonials-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Harum natus quae quas. Consequuntur ducimus facere minima
@@ -259,7 +262,7 @@
     </div>
 </section>
 <!--Blog-->
-<section class="blogs">
+<section class="blogs" data-aos="zoom-in-up">
     <h1 class="blog-h1">Our Latest Blogs</h1>
     <div class="grid-wrapper">
         <div class="blog">
@@ -302,9 +305,9 @@
         <button class="ctn-button">Get Started</button>
     </div>
 
-</section>
+</section>2
 <!--Footer-->
-<div class="footer">
+<section class="footer">
     <div class="grid-wrapper">
         <div class="col-4 footer1">
             <h1>Tech Bees</h1>
@@ -343,6 +346,25 @@
         </div>
     </div>
 </div>
-</body>
+<div class="copyright">
+    <h4>Copyright Gowtham Tirri.All rights reserved</h4>
+    <h4>Terms & Use</h4>
+     <h4>Privacy Policy</h4>
+</div>
+    <!--scroll to top button-->
+    <i id="scrolltp" class="fa fa-arrow-up"></i>
+</section>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="js/app.js"></script>
+
+<script>
+    AOS.init({
+            offset:200,
+            delay:100,
+            duration:1000,
+        });
+    <!--App.js-->
+</script>
+</body>
 </html>

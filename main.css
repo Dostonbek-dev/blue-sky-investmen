@@ -130,6 +130,7 @@ header{
     text-align: center;
     border-radius: 5px;
     box-shadow:2px 2px 5px rgba(0,0,0,0.438);
+    z-index:999;
 }
 .grid-box img {
     width: 80px;
@@ -334,7 +335,7 @@ Projects*/
     cursor:pointer;
 }
 .grid-wrapper{
-background: var(--gradient-4);
+
 }
 .team-mem img{
     border-radius: 50%;
@@ -439,9 +440,14 @@ background: var(--gradient-4);
 /*Footer*/
 .footer{
     margin-top: 80px;
+    background-image: url("./img/resurce/footer-agency.png");
+    background-size: cover;
 }
 .col-4{
-    min-height: 400px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .footer1 h1{
     font-size: 40px;
@@ -451,4 +457,101 @@ background: var(--gradient-4);
     margin:20px;
     font-size:25px;
     color:grey;
+}
+.footer2 h4
+,footer3 h4,
+footer4 h4{
+    color:grey;
+    font-weight: 400;
+}
+.footer hr{
+    width: 90%;
+    margin: 0 auto;
+}
+.copyright{
+    display: flex;
+    justify-content: space-around;
+    color:grey;
+    padding: 30px;
+    font-weight: 400;
+}
+/* scroll to top*/
+
+#scrolltp{
+    color: white;
+    background: tomato;
+    padding:15px;
+    border-radius: 50%;
+    position:fixed;
+    right: 50px;
+    bottom: 50px;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+/* Theme Toggle*/
+.theme{
+    position: absolute;
+    top: 30px;
+    left:30%;
+}
+.label{
+    width: 50px;
+    height: 20px;
+    background-color: rgb(235,235,235);
+    display: flex;
+    align-items: center;
+    border-radius:50px;
+}
+.label .ball{
+    width: 15px;
+    height: 15px;
+    background: #282f59;
+    border-radius: 50%;
+    margin: 5px;
+    transition:transform 0.5s;
+    cursor:pointer;
+}
+.checkbox{
+    opacity: 0;
+    position: absolute;
+}
+.checkbox:checked~.label{
+    background: #282f59;
+}
+.checkbox:checked~.label .ball{
+    background-color: whitesmoke;
+    transform:translateX(25px);
+}
+/*Dark Mode Colors*/
+body.dark{
+    background: #282f59;
+}
+body.dark p{
+    color: #cbcdda;
+}
+body.dark h1{
+    color:whitesmoke;
+}
+body.dark.team h1{
+    color: #282f59;
+}
+body.dark .footer2 h4
+,footer3 h4,
+footer4 h4{
+    color: #cbcdda;
+}body.dark .copyright{
+    color:#cbcdda;
+ }
+ body.dark.circle{
+     opacity: 0.5;
+     z-index: -888;
+ }
+ body.dark a{
+     color:whitesmoke;
+ }
+ body.dark.footer h4{
+     color:#cbcdda;
+ }
+body.dark .team .team-h1{
+    color:whitesmoke;
 }
