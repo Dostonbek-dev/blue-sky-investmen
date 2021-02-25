@@ -2,46 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18a12ac9-b584-4eed-a927-484f7bd66c55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/about-us/tr.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bluesky/jahon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bluesky/karina.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bluesky/karinaAndCofe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bluesky/karinaandjahon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/resurce/iconfinder_18_3319626.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/svg/gold (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/svg/money-bag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/svg/oil.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/about-us/austin-distel-DfjJMVhwH_8-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/team1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/team2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/team3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resurce/team4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/as.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/about-us/forex.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/about-us/tradeingWho.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bluesky/chest-gold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bluesky/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bluesky/logo16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bluesky/logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bluesky/oil-gold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/resurce/blog1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/resurce/branding.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/resurce/facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/resurce/instagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/resurce/linkedin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/resurce/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/resurce/marketing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/resurce/mobileapp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/resurce/project-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/resurce/project-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/resurce/project-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/resurce/project-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/resurce/project-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/resurce/project-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/resurce/stock-market.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/resurce/svech.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/resurce/team-mockup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/resurce/team1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/resurce/team2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/resurce/team3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/resurce/team4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/resurce/twitter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/resurce/webdesign.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/resurce/blog3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/resurce/iconfinder_18_3319626.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
@@ -86,7 +55,9 @@
       <workItem from="1613221488318" duration="21520000" />
       <workItem from="1613270412877" duration="39763000" />
       <workItem from="1613827612896" duration="12141000" />
-      <workItem from="1614097029477" duration="448000" />
+      <workItem from="1614097029477" duration="3561000" />
+      <workItem from="1614170549975" duration="4271000" />
+      <workItem from="1614245157779" duration="453000" />
     </task>
     <task id="LOCAL-00001" summary="git push">
       <created>1613086126549</created>
@@ -144,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613335560263</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Started creating website">
+      <created>1614097548263</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614097548263</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,14 +138,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1614097250161" />
-    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1613335558158">
+    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1614097545634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1613335558158" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1613335563046">
+    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1614097545634" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1614097557129">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1613335563046" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1614097557129" />
+    <state x="100" y="100" width="1336" height="624" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1614101559988">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="100" y="100" width="1336" height="624" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1614101559988" />
     <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613915307625">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

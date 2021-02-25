@@ -100,6 +100,9 @@ header{
 #more2{
     display: none;
 }
+#more3{
+    display: none;
+}
 .mockup-img img{
     border-radius: 15px;
 
@@ -554,9 +557,7 @@ body.dark h1{
 body.dark.team h1{
     color: #282f59;
 }
-body.dark .footer2 h4
-,footer3 h4,
-footer4 h4{
+body.dark .footer2 h4,footer3 h4, footer4 h4{
     color: #cbcdda;
 }body.dark .copyright{
     color:#cbcdda;
@@ -573,4 +574,7 @@ footer4 h4{
  }
 body.dark .team .team-h1{
     color:whitesmoke;
+}
+.soceal-profils{
+    color: white;
 }

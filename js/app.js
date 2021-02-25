@@ -1,4 +1,3 @@
-
 /*Dark Mode*/
 const themeToggle=document.querySelector(".checkbox");
 const body=document.querySelector("body");
@@ -40,6 +39,23 @@ function myBtnText() {
     var dots = document.getElementById("dot");
     var moreText = document.getElementById("more2");
     var btnText = document.getElementById("myBtnText");
+    if (dots.style.display === "none") {
+        dots.style.display = "inline-block";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline-block";
+
+    }
+}
+
+
+function myBtnText3() {
+    var dots = document.getElementById("dot3");
+    var moreText = document.getElementById("more3");
+    var btnText = document.getElementById("myBtnText3");
     if (dots.style.display === "none") {
         dots.style.display = "inline-block";
         btnText.innerHTML = "Read more";
