@@ -5,10 +5,12 @@
     <title>Blue Sky Investment</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-<!--    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />-->
+    <link rel="stylesheet" href="media.css">
+    <link rel="icon" type="image/png" href="./img/about-us/p1eskk3vjd1624v3npeg1cb2mqi4-12.png" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+<body  id="language">
+
 <header>
     <nav class="navbar">
         <div class="theme">
@@ -17,20 +19,34 @@
                 <div class="ball"></div>
             </label>
         </div>
+        <a href="#" class="toggle-button" onclick="myMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
         <h1>BLUE SKY INVESTMENT</h1>
-        <ul class="nav-list">
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Language</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a  onclick="languageEn()">Eng</a>
+                <a  onclick="languageUz()">Uz</a>
+                <a  onclick="languageRu()">Ru</a>
+            </div>
+        </div>
+        <ul class="nav-list" id="nav-list">
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a class="ctn"  style="cursor:pointer">English</a></li>
+            <li><a href="#section2">About</a></li>
+            <li><a href="#section3">Our Work</a></li>
+            <li><a href="#section4">Team</a></li>
+            <li><a href="#section5">Blog</a></li>
 
         </ul>
     </nav>
+
+
     <div class="row">
         <div class="header-content">
-            <h1>WHAT IS TRADING AND WHO IS A TRADER?</h1>
+            <h1 class="header_h1">WHAT IS TRADING AND WHO IS A TRADER?</h1>
             <p>
                 And so friends, as you could already understand, today we will talk about who this mysterious person is hiding behind the word trader.
                 If you look for information on the
@@ -38,7 +54,7 @@
                 trader who acts on his own initiative and seeks to profit directly
                 from the trading process.</p>
             <p id="dots"></p>
-<p id="more">
+            <p id="more">
                 From my own experience, I can say that a trader is a bridge between an investor and an exchange. The goal of a trader is first of all to help the investor earn money, and only then to earn money himself.
                 At first glance, people who are not versed in this direction may think that the profession is very easy. What's so hard about that they think they sit at the computer for a couple of hours pressing the buttons and the money itself flows into the pockets. I hasten to upset you as it only seems at first glance.
                 Trading is primarily about controlling your emotions. If you are short-tempered or lack patience, you will not be successful in trading. Secondly, it is the ability to analyze the current situation in the world and on the stock exchange. You need to be able to structure a lot of information.
@@ -56,67 +72,53 @@
 </header>
 
 <!--services-->
-<section class="services" data-aos="fade-right">
-<div class="container">
-    <div class="grid-wrapper">
-        <div class="grid-box mobileapp">
-            <img src="./img/svg/oil.svg" alt="">
-            <h1>Oil</h1>
+<section class="services" id="section1" data-aos="fade-right">
+    <div class="container">
+        <div class="grid-wrapper">
+            <div class="grid-box mobileapp">
+                <img src="./img/svg/oil.svg" alt="">
+                <h1>Oil</h1>
+            </div>
+            <div class="grid-box webdesign">
+                <img src="./img/svg/gold%20(2).png"  alt="">
+                <h1>Gold</h1>
+            </div>
+            <div class="grid-box marketing">
+                <img src="./img/svg/money-bag.svg" alt="">
+                <h1>Dolar</h1>
+            </div>
+            <div class="grid-box branding">
+                <img src="./img/resurce/dolor.png" alt="">
+                <h1>Trading</h1>
+            </div>
         </div>
-        <div class="grid-box webdesign">
-            <img src="./img/svg/gold%20(2).png"  alt="">
-            <h1>Gold</h1>
-        </div>
-        <div class="grid-box marketing">
-            <img src="./img/svg/money-bag.svg" alt="">
-            <h1>Dolor</h1>
-        </div>
-        <div class="grid-box branding">
-            <img src="./img/resurce/dolor.png" alt="">
-        <h1>Treding</h1>
-        </div>
-    </div>
 
-    <div class="services-content">
-        <div class="circle">
-            <img src="./img/resurce/circle.svg" >
+        <div class="services-content">
+            <div class="circle">
+                <img src="./img/resurce/circle.svg" >
+            </div>
+            <h1>WHAT IS THE EXCHANGE</h1>
+            <p>
+                It is a marketplace where buyers and sellers meet to trade stocks, bonds, other securities, and financial instruments. This is where securities are sold and resold,
+                their market value is formed here, work standards are developed for all market participants.</p>
+            <p id="dot"></p>
+            <p id="more2">The exchange operates according to certain rules, among which one should mention, first of all, government regulation. This is how you can ensure the execution of transactions and the overall reliability of the market: guarantees. True, constant monitoring, strict regulations.
+                Due to strict adherence to the rules and control over their implementation,
+                as well as the improvement of technologies, risks for the participants in the process are minimized.</p>
+            <a id="myBtnText"  onclick="myBtnText()" class="ctn">Learn More</a>
         </div>
-        <h1>WHAT IS THE EXCHANGE</h1>
-        <p>
-            It is a marketplace where buyers and sellers meet to trade stocks, bonds, other securities, and financial instruments. This is where securities are sold and resold,
-            their market value is formed here, work standards are developed for all market participants.</p>
-        <p id="dot"></p>
-        <p id="more2">The exchange operates according to certain rules, among which one should mention, first of all, government regulation. This is how you can ensure the execution of transactions and the overall reliability of the market: guarantees. True, constant monitoring, strict regulations.
-            Due to strict adherence to the rules and control over their implementation,
-            as well as the improvement of technologies, risks for the participants in the process are minimized.</p>
-        <a id="myBtnText"  onclick="myBtnText()" class="ctn">Learn More</a>
     </div>
-  </div>
 </section>
 
-<section class="numbers" data-aos="fade-left">
-    <div class="who">
-   <h1 class="num-text">
-       WHO IS A TRADER AND WHAT DOES HE DO?</h1>
-    <p>
-
-        A lot of such questions are asked to us and our team “Who is a trader? What does he do ”, and today we decided to share our view on this mysterious word.
-        A trader in translation from English is a trader in the broadest sense of the word. The profession of a trader is very specific and does not require a diploma in economics. Anyone can become a trader, but desire alone is not enough to be successful. You must have a special predisposition and constantly improve. You are competing with the best of the best,
-        and the only indicator of a trader's performance is the exchange yield.
-        Those unfamiliar with the specifics of working in the financial market believe that a trader earns fabulous money in the shortest possible time. That one has only to learn to "read stock charts", master simple trading techniques, read a couple of books about trading, and a couple of million in your pocket!
-
-        In fact, this is a delusion that has nothing to do with reality. A trader can take losses for half a year, and then cover all the failures with a series of brilliant trades.
-    </p>
-
-    </div>
+<section class="numbers" id="section2"  data-aos="fade-left">
     <div class="ocomapany">
-    <h1 class="num-text">
-        About company</h1>
-    <p>
+        <h1 class="num-text">
+            About company</h1>
+        <p>
 
-        Dear friends and investors, We are glad to welcome you to the bluesky.investment website. We would like to express our gratitude for your attention and would like to tell you a few words about our company. Bluesky.investment is a world-class financial and investment consulting company. The founder and general director of our company is Nuriddinova Karina. She is a professional trader and has 7 years of experience in the Forex exchange. Despite the fact that our company was founded recently, we can confidently say that we are the market leaders and have already worked with foreign investors from
+            Dear friends and investors, We are glad to welcome you to the bluesky investment website. We would like to express our gratitude for your attention and would like to tell you a few words about our company. Bluesky investment is a world-class financial and investment consulting company. The founder and general director of our company is Nuriddinova Karina. She is a professional trader and has 7 years of experience in the Forex exchange. Despite the fact that our company was founded recently, we can confidently say that we are the market leaders and have already worked with foreign investors from
 
-    </p>
+        </p>
     </div>
 
     <div class="container">
@@ -136,18 +138,18 @@
             <div class="grid-box designs">
                 <h1>10+</h1>
                 <h2>
-                   Year experience </h2>
+                    Year experience </h2>
             </div>
         </div>
         <div class="mockup-img">
-            <img src="img/bluesky/karina.jpg" height="512" width="600"/></div>
+            <img class="mockup_image" src="img/bluesky/karina.jpg"/></div>
     </div>
 </section>
 
 
 <!-- projects-->
 
-<section class="projects" data-aos="zoom-in">
+<section class="projects" id="section3"  data-aos="zoom-in">
     <h1>Our workspace</h1>
     <div class="project-images">
         <div class="prj-img">
@@ -179,88 +181,63 @@
 
     </div>
 </section>
+<section  class="numbers"  >
+    <div class="who">
+        <h1 class="num-text">
+            WHO IS A TRADER AND WHAT DOES HE DO?</h1>
+        <p>
+
+            A lot of such questions are asked to us and our team “Who is a trader? What does he do ”, and today we decided to share our view on this mysterious word.
+            A trader in translation from English is a trader in the broadest sense of the word. The profession of a trader is very specific and does not require a diploma in economics. Anyone can become a trader, but desire alone is not enough to be successful. You must have a special predisposition and constantly improve. You are competing with the best of the best,
+            and the only indicator of a trader's performance is the exchange yield.
+            Those unfamiliar with the specifics of working in the financial market believe that a trader earns fabulous money in the shortest possible time. That one has only to learn to "read stock charts", master simple trading techniques, read a couple of books about trading, and a couple of million in your pocket!
+
+            In fact, this is a delusion that has nothing to do with reality. A trader can take losses for half a year, and then cover all the failures with a series of brilliant trades.
+        </p>
+
+    </div>
+</section>
 <!--team-->
-<section class="team" data-aos="flip-left">
+<section class="team" id="section4"  data-aos="flip-left">
     <h1 class="team-h1" >Meet our Team</h1>
     <div class="grid-wrapper">
         <div class="team-mem">
-            <img src="./img/resurce/team2.png" style="border-radius:15px" alt="">
+            <img src="./img/bluesky/karinaProfile.jpg" alt="">
             <h1>Karina Nuriddinova</h1>
             <h2>CEO & Founder</h2>
 
         </div>
         <div class="team-mem">
-            <img src="./img/resurce/team1.png" alt="">
+            <img src="./img/bluesky/UmarjonProfile.jpg" alt="">
             <h1>Umarjon</h1>
             <h2>Manager</h2>
 
         </div>
         <div class="team-mem">
-            <img src="./img/resurce/team3.png" alt="">
-            <h1>Michael</h1>
-            <h2>Design Expert</h2>
-
-        </div>
-        <div class="team-mem">
-            <img src="./img/resurce/team4.png" alt="">
+            <img src="./img/bluesky/ustozProfil.jpg" alt="">
             <h1>Robert</h1>
             <h2>Product Designer</h2>
 
         </div>
     </div>
 </section>
-<!--Tesimonials-->
-<!--<section class="testimonials" data-aos="fade-down-left">-->
-<!--    <h1  class="testimonials-h1">What Our Client Says</h1>-->
-<!--    <p class="testimonials-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit.-->
-<!--        Harum natus quae quas. Consequuntur ducimus facere minima-->
-<!--        minus quod soluta temporibus?</p>-->
 
-<!--    <div class="grid-wrapper">-->
-<!--        <div class="review">-->
-<!--            <i class="fa fa-quote-right"></i>-->
-<!--            <div class="profile">-->
-<!--                <img src="./img/resurce/team1.png" alt="">-->
-<!--                <h1> John Doe</h1>-->
-<!--                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, perspiciatis sapiente.-->
-<!--                    Blanditiis, laboriosam minima non possimus qui sequi voluptatem! Provident.</p>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="review">-->
-<!--            <i class="fa fa-quote-right"></i>-->
-<!--            <div class="profile">-->
-<!--                <img src="./img/resurce/team2.png" alt="">-->
-<!--                <h1> John Doe</h1>-->
-<!--                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.-->
-<!--                    Aspernatur assumenda, consequatur deserunt fugit ipsa maiores-->
-<!--                    neque nulla perferendis sequi ut!</p>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="review">-->
-<!--            <i class="fa fa-quote-right"></i>-->
-<!--            <div class="profile">-->
-<!--                <img src="./img/resurce/team3.png" alt="">-->
-<!--                <h1> John Doe</h1>-->
-<!--                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, perspiciatis sapiente.-->
-<!--                    Blanditiis, laboriosam minima non possimus qui sequi voluptatem! Provident.</p>-->
-<!--            </div>-->
-<!--        </div>-->
-
-<!--    </div>-->
-<!--</section>-->
-<!--Blog-->
-<section class="blogs" data-aos="zoom-in-up">
+<section class="blogs" id="section5"  data-aos="zoom-in-up">
     <h1 class="blog-h1">Our Latest Blogs</h1>
     <div class="grid-wrapper">
         <div class="blog">
-            <img src="./img/about-us/tr.jpg" alt="">
+            <img src="./img/about-us/munisa-and-karina.jpg" alt="">
             <h1>HOW TO START EARNING WITH US?</h1>
-            <p>Friends, we hasten to inform you that our company is ready to cooperate with investors from all over Uzbekistan. I would like to remind you that we work on an international exchange and are engaged in the purchase and sale of oil, gold and currency.
+            <p>Friends, today our guest was a wonderful singer Munisa Rizaeva.
+                We consulted her on issues of interest. We hope you have learned a lot for yourself. We look forward to welcoming you again.
+                <br>
+                <span style="margin-top: 4px">18.02.2021</span>
+                </p>
+            <br>
 
-                You have the opportunity to invest from $ 1000 and receive a monthly income of 7-10%. The company assumes all responsibility and risks. The invested money will not be subject to risk. All investments are made through a notary office with the participation of third parties
-
-                And so friends do not miss the opportunity to earn and join the ranks of our investors. If you have any questions or doubts, please contact us.</p>
+            <br>
             <a >Read More</a>
+
         </div>
         <div class="blog">
             <img src="./img/resurce/blog2.png" alt="">
@@ -270,6 +247,8 @@
                 In the forex market, there is such an unspoken pattern that a novice trader always loses
                 (in the trader's slang - “drains”) his first deposit. This is due to the fact that a beginner
                 in trading financial instruments does not yet have all the necessary trading skills and
+                <br>
+                <span style="margin-top: 4px">18.02.2021</span>
             <p id="dot3"></p>
             <p id="more3">
                 trading psychology. Some forex brokers offer their clients to open a so-called cent account, which will allow them to start trading with real money with an amount of $ 1-10.
@@ -278,8 +257,13 @@
                 Demo account
                 Every professional trader started his trading path by trading on a demo account. Demo account - a virtual account that is provided by a broker for training on testing the trading system. Thanks to the demo account, a novice trader can acquire practical skills in trading in financial markets without the risk of losing real money.
                 Professional traders advice: study on a demo account until your trading strategy starts to bring a stable profit.
+                <br>
+                <span style="margin-top: 4px">18.02.2021</span>
             </p>
-                <a  id="myBtnText3" style="cursor:pointer;"  onclick="myBtnText3()" >Learn More</a>
+            <br>
+            <br>
+            <a  id="myBtnText3" style="cursor:pointer;"  onclick="myBtnText3()" >Learn More</a>
+
         </div>
         <div class="blog">
             <img src="./img/about-us/austin-distel-DfjJMVhwH_8-unsplash.jpg" alt="">
@@ -292,23 +276,23 @@
                 market behind her. She has experience of working with investors in more
                 than 15 countries, more than 100 successful projects. Under her leadership,
                 we have managed to achieve high performance for our investors.
+                <br>
+                <span style="margin-top: 4px">18.02.2021</span>
+            </p>
+                <br>
+
+                <br>
                 <a >Read More</a>
         </div>
     </div>
 </section>
 
-<!--Call to Action-->
-<!--<section class="getstarted">-->
-<!--    <div class="ctn-container">-->
-<!--    <div class="ctn-text">-->
-<!--        <h1>Get Connnected With TechBees</h1>-->
-<!--        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>-->
-<!--    </div>-->
-<!--        <button class="ctn-button">Get Started</button>-->
-<!--    </div>-->
-
-<!--</section>2-->
-<!--Footer-->
+    <section class="map">
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="1520" height="426" id="gmap_canvas" src="https://maps.google.com/maps?q=Tashkent%20,%20Uzbekistan%20Yunusabad%20district%20Osiyo,%2039&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies2.org">fmovies</a><br><style>.mapouter{position:relative;text-align:right;height:426px;width:1520px;}</style>
+            <a href="https://www.embedgooglemap.net">
+            </a>
+            <style>.gmap_canvas {overflow:hidden;background:none!important;height:426px;width:1520px;}</style></div></div>
+    </section>
 <section class="footer">
     <div class="grid-wrapper">
         <div class="col-4 footer1">
@@ -316,10 +300,10 @@
             <p>Better ideas, better investments, more profits.
                 This is a better relationship of success </p>
             <div class="soceal-profils">
-                <a href="">  <i class=  "fa fa-youtube"></i></a>
-                <a href="https://instagram.com/bluesky.uz?igshid=1s8ub10jaz1m3"target="_blank"><i class="fa fa-instagram"></i></a>
-                <a href="https://www.facebook.com/Blueskyuz-100693928728221"target="_blank"><i class="fa fa-facebook"></i></a>
-                <a href="https://t.me/blueskyinvestment"><i class="fa fa-telegram"target="_blank"></i></a>
+                <a href="https://www.youtube.com/channel/UCqtfzERelXeRcQlknqHFQ0Q?guided_help_flow=5" target="_blank">  <i class=  "fa fa-youtube"></i></a>
+                <a href="https://instagram.com/bluesky.uz?igshid=1s8ub10jaz1m3" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.facebook.com/Blueskyuz-100693928728221" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://t.me/blueskyinvestment" target="_blank"><i class="fa fa-telegram" ></i></a>
             </div>
         </div>
         <div class="col-4 footer2">
@@ -333,27 +317,23 @@
             <a href=""><h4></h4></a>
         </div>
     </div>
-</div>
+    </div>
 </section>
-<!--<div class="copyright">-->
-<!--    <h4>Copyright  TopSoftGroup.uz All rights reserved</h4>-->
-<!--    <h4>Terms & Use</h4>-->
-<!--     <h4>Privacy Policy</h4>-->
-<!--</div>-->
-    <!--scroll to top button-->
-    <i id="scrolltp" class="fa fa-arrow-up"></i>
+<i id="scrolltp" class="fa fa-arrow-up"></i>
 </section>
+
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="js/app.js"></script>
 
 <script>
     AOS.init({
-            offset:200,
-            delay:100,
-            duration:1000,
-        });
-    <!--App.js-->
+        offset:200,
+        delay:100,
+        duration:1000,
+    });
+
+
 </script>
 </body>
 </html>
