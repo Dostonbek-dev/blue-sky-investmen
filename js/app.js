@@ -99,10 +99,12 @@ window.onclick = function(event) {
         }
     }
 }
-var en= '<header>\n' +
+
+var en='<section id="language">\n' +
+    '<header>\n' +
     '    <nav class="navbar">\n' +
     '        <div class="theme">\n' +
-    '            <input id="checkbox" type="checkbox" class="checkbox">\n' +
+    '            <input id="checkbox" type="checkbox"style="margin-left: 85px;margin-top: 4px" class="checkbox">\n' +
     '            <label for="checkbox" class="label">\n' +
     '                <div class="ball"></div>\n' +
     '            </label>\n' +
@@ -112,13 +114,13 @@ var en= '<header>\n' +
     '            <span class="bar"></span>\n' +
     '            <span class="bar"></span>\n' +
     '        </a>\n' +
-    '        <h1>BLUE SKY INVESTMENT</h1>\n' +
+    '        <h1 class="gradient-text">BLUE SKY INVESTMENT</h1>\n' +
     '        <div class="dropdown">\n' +
     '            <button onclick="myFunction()" class="dropbtn">Language</button>\n' +
     '            <div id="myDropdown" class="dropdown-content">\n' +
-    '                <a href="#home" onclick="languageEn()">Eng</a>\n' +
-    '                <a href="#about" onclick="languageUz()">Uz</a>\n' +
-    '                <a href="#contact" onclick="languageRu()">Ru</a>\n' +
+    '                <a  onclick="languageEn()">Eng</a>\n' +
+    '                <a  onclick="languageUz()">Uz</a>\n' +
+    '                <a  onclick="languageRu()">Ru</a>\n' +
     '            </div>\n' +
     '        </div>\n' +
     '        <ul class="nav-list" id="nav-list">\n' +
@@ -204,7 +206,9 @@ var en= '<header>\n' +
     '            About company</h1>\n' +
     '        <p>\n' +
     '\n' +
-    '            Dear friends and investors, We are glad to welcome you to the bluesky investment website. We would like to express our gratitude for your attention and would like to tell you a few words about our company. Bluesky investment is a world-class financial and investment consulting company. The founder and general director of our company is Nuriddinova Karina. She is a professional trader and has 7 years of experience in the Forex exchange. Despite the fact that our company was founded recently, we can confidently say that we are the market leaders and have already worked with foreign investors from\n' +
+    '            Dear friends and investors, We are glad to welcome you to the bluesky investment website. We would like to express our gratitude for your attention and would like to tell you a few words about our company. Bluesky investment is a world-class financial and investment consulting company. The founder and general director of our company is Nuriddinova Karina. She is a professional trader and has 7 years of experience in the Forex exchange. Despite the fact that our company was founded recently, we can confidently say that we are the market leaders and have already worked with foreign investors from all over the world.\n' +
+    '            Company blue sky trades in oil, gold, precious metals and\n' +
+    '            currency pairs.\n' +
     '\n' +
     '        </p>\n' +
     '    </div>\n' +
@@ -220,17 +224,17 @@ var en= '<header>\n' +
     '                <h2>Projects Completed</h2>\n' +
     '            </div>\n' +
     '            <div class="grid-box runningprj">\n' +
-    '                <h1>500+</h1>\n' +
+    '                <h1>200+</h1>\n' +
     '                <h2>Running Projects</h2>\n' +
     '            </div>\n' +
     '            <div class="grid-box designs">\n' +
-    '                <h1>10+</h1>\n' +
+    '                <h1>7+</h1>\n' +
     '                <h2>\n' +
     '                    Year experience </h2>\n' +
     '            </div>\n' +
     '        </div>\n' +
     '        <div class="mockup-img">\n' +
-    '            <img class="mockup_image" src="img/bluesky/karina.jpg"/></div>\n' +
+    '            <img class="mockup_image" src="img/about-us/karina.jpg"/></div>\n' +
     '    </div>\n' +
     '</section>\n' +
     '\n' +
@@ -407,331 +411,15 @@ var en= '<header>\n' +
     '    </div>\n' +
     '    </div>\n' +
     '</section>\n' +
-    '<i id="scrolltp" class="fa fa-arrow-up"></i>'
-var ru= '<header>\n' +
-    '    <nav class="navbar">\n' +
-    '        <div class="theme">\n' +
-    '            <input id="checkbox" type="checkbox" class="checkbox">\n' +
-    '            <label for="checkbox" class="label">\n' +
-    '                <div class="ball"></div>\n' +
-    '            </label>\n' +
-    '        </div>\n' +
-    '        <a href="#" class="toggle-button" onclick="myMenu()">\n' +
-    '            <span class="bar"></span>\n' +
-    '            <span class="bar"></span>\n' +
-    '            <span class="bar"></span>\n' +
-    '        </a>\n' +
-    '        <h1>BLUE SKY INVESTMENT</h1>\n' +
-    '        <div class="dropdown">\n' +
-    '            <button onclick="myFunction()" class="dropbtn">Язык</button>\n' +
-    '            <div id="myDropdown" class="dropdown-content">\n' +
-    '                <a href="#home" onclick="languageEn()">Eng</a>\n' +
-    '                <a href="#about" onclick="languageUz()">Uz</a>\n' +
-    '                <a href="#contact" onclick="languageRu()">Ru</a>\n' +
-    '            </div>\n' +
-    '        </div>\n' +
-    '        <ul class="nav-list" id="nav-list">\n' +
-    '            <li><a href="#">Домой</a></li>\n' +
-    '            <li><a href="#section2">О нас</a></li>\n' +
-    '            <li><a href="#section3">Наша работа</a></li>\n' +
-    '            <li><a href="#section4">Команда</a></li>\n' +
-    '            <li><a href="#section5">Блог</a></li>\n' +
-    '\n' +
-    '        </ul>\n' +
-    '    </nav>\n' +
-    '\n' +
-    '\n' +
-    '    <div class="row">\n' +
-    '        <div class="header-content">\n' +
-    '            <h1 class="header_h1">ЧТО ТАКОЕ ТРЕЙДИНГ И КТО ТАКОЙ ТРЕЙДЕР?</h1>\n' +
-    '            <p>\n' +
-    '                И так друзья как вы уже могли понять сегодня речь пойдет о том кто же это такой таинственный человек скрывается за словом трейдер.\n' +
-    '                Если поискать информацию в интернете там говорится что трейдер это торговец, действующий по собственной инициативе и стремящийся извлечь прибыль непосредственно из процесса торговли.\n' +
-    '            </p>\n' +
-    '            <p id="dots"></p>\n' +
-    '            <p id="more">\n' +
-    '                По своему опыту могу сказать что трейдер это мостик между инвестором и биржей. Цель трейдера в первую очередь помочь заработать инвестору, а уже потом заработать и самому.\n' +
-    '\n' +
-    '                Людям не разбирающимся в этом направлении на первый взгляд может показаться что профессия очень легкая. Да что тут сложного думают они сидишь за компьютером пару часов нажимая кнопочки и деньги сами текут в карманы. Спешу вас огорчить так только кажется на первый взгляд.\n' +
-    '                Трейдинг в первую очередь это контроль над своими эмоциями. Если вы вспыльчивый или же у вас нет терпения, успеха в трейдинге вы не добьетесь. Во вторых это умение анализировать текущую ситуацию в мире и на бирже. Нужно уметь структурировать очень много информации. И не зря говорят что трейдинг это интеллектуальный спорт.</p>\n' +
-    '            <br>\n' +
-    '            <br>\n' +
-    '\n' +
-    '            <a  id="myText"  class="learnmore" onclick="myText()">Ещё</a>\n' +
-    '\n' +
-    '        </div>\n' +
-    '        <div class="hero-img">\n' +
-    '            <img src="./img/about-us/undraw_Data_trends_re_2cdy.svg" width="439" height="389">\n' +
-    '        </div>\n' +
-    '    </div>\n' +
-    '</header>\n' +
-    '\n' +
-    '<!--services-->\n' +
-    '<section class="services" id="section1" data-aos="fade-right">\n' +
-    '    <div class="container">\n' +
-    '        <div class="grid-wrapper">\n' +
-    '            <div class="grid-box mobileapp">\n' +
-    '                <img src="./img/svg/oil.svg" alt="">\n' +
-    '                <h1>Нефть</h1>\n' +
-    '            </div>\n' +
-    '            <div class="grid-box webdesign">\n' +
-    '                <img src="./img/svg/gold%20(2).png"  alt="">\n' +
-    '                <h1>Золото</h1>\n' +
-    '            </div>\n' +
-    '            <div class="grid-box marketing">\n' +
-    '                <img src="./img/svg/money-bag.svg" alt="">\n' +
-    '                <h1>Доллар</h1>\n' +
-    '            </div>\n' +
-    '            <div class="grid-box branding">\n' +
-    '                <img src="./img/resurce/dolor.png" alt="">\n' +
-    '                <h1>Торговля</h1>\n' +
-    '            </div>\n' +
-    '        </div>\n' +
-    '\n' +
-    '        <div class="services-content">\n' +
-    '            <div class="circle">\n' +
-    '                <img src="./img/resurce/circle.svg" >\n' +
-    '            </div>\n' +
-    '            <h1>ЧТО ТАКОЕ ФОНДОВАЯ БИРЖА</h1>\n' +
-    '            <p>\n' +
-    '                Это торговая площадка, где покупатели и продавцы встречаются для торговли акциями, облигациями, другими ценными бумагами и финансовыми инструментами. Здесь продаются и перепродаются ценные бумаги,\n' +
-    '                Здесь формируется их рыночная стоимость, разрабатываются стандарты работы для всех участников рынка.</p>\n' +
-    '            <p id="dot"></p>\n' +
-    '            <p id="more2">Биржа работает по определенным правилам, среди которых следует упомянуть, прежде всего, государственное регулирование. Вот как вы можете обеспечить выполнение транзакций и общую надежность рынка: гарантии. Правда, постоянный контроль, строгий регламент.\n' +
-    '                За счет строгого соблюдения правил и контроля за их выполнением,\n' +
-    '                а также совершенствование технологий сводит к минимуму риски для участников процесса.</p>\n' +
-    '            <a id="myBtnText"  onclick="myBtnText()" class="ctn">Ещё</a>\n' +
-    '        </div>\n' +
-    '    </div>\n' +
-    '</section>\n' +
-    '\n' +
-    '<section class="numbers" id="section2"  data-aos="fade-left">\n' +
-    '    <!--    <div class="who">-->\n' +
-    '    <!--   <h1 class="num-text">-->\n' +
-    '    <!--       WHO IS A TRADER AND WHAT DOES HE DO?</h1>-->\n' +
-    '    <!--    <p>-->\n' +
-    '\n' +
-    '    <!--        A lot of such questions are asked to us and our team “Who is a trader? What does he do ”, and today we decided to share our view on this mysterious word.-->\n' +
-    '    <!--        A trader in translation from English is a trader in the broadest sense of the word. The profession of a trader is very specific and does not require a diploma in economics. Anyone can become a trader, but desire alone is not enough to be successful. You must have a special predisposition and constantly improve. You are competing with the best of the best,-->\n' +
-    '    <!--        and the only indicator of a trader\'s performance is the exchange yield.-->\n' +
-    '    <!--        Those unfamiliar with the specifics of working in the financial market believe that a trader earns fabulous money in the shortest possible time. That one has only to learn to "read stock charts", master simple trading techniques, read a couple of books about trading, and a couple of million in your pocket!-->\n' +
-    '\n' +
-    '    <!--        In fact, this is a delusion that has nothing to do with reality. A trader can take losses for half a year, and then cover all the failures with a series of brilliant trades.-->\n' +
-    '    <!--    </p>-->\n' +
-    '\n' +
-    '    <!--    </div>-->\n' +
-    '    <div class="ocomapany">\n' +
-    '        <h1 class="num-text">\n' +
-    '            О компании</h1>\n' +
-    '        <p>\n' +
-    '\n' +
-    '            Дорогие друзья и инвесторы! Мы рады приветствовать вас на сайте bluesky.investment. Выражаем Вам признательность за внимание и хотим сказать несколько слов о нашей компании. Bluesky.investment - финансовая и инвестиционная консалтинговая компания мирового уровня. Учредитель и генеральный директор нашей компании - Нуриддинова Карина. Она профессиональный трейдер и имеет 7-летний опыт работы на бирже Forex. Несмотря на то, что наша компания была основана совсем недавно, мы можем с уверенностью сказать, что являемся лидерами рынка и уже работали с иностранными инвесторами со всего мира.        </p>\n' +
-    '    </div>\n' +
-    '\n' +
-    '    <div class="container">\n' +
-    '        <div class="grid-wrapper">\n' +
-    '            <div class="grid-box hpyclients">\n' +
-    '                <h1>2500+</h1>\n' +
-    '                <h2>Счастливые клиенты</h2>\n' +
-    '            </div>\n' +
-    '            <div class="grid-box prjcompleted">\n' +
-    '                <h1>750+</h1>\n' +
-    '                <h2>Завершенных проектов</h2>\n' +
-    '            </div>\n' +
-    '            <div class="grid-box runningprj">\n' +
-    '                <h1>500+</h1>\n' +
-    '                <h2>Работающие проекты</h2>\n' +
-    '            </div>\n' +
-    '            <div class="grid-box designs">\n' +
-    '                <h1>10+</h1>\n' +
-    '                <h2>\n' +
-    '                    Год опыта </h2>\n' +
-    '            </div>\n' +
-    '        </div>\n' +
-    '        <div class="mockup-img">\n' +
-    '            <img class="mockup_image" src="img/bluesky/karina.jpg"/></div>\n' +
-    '    </div>\n' +
-    '</section>\n' +
-    '\n' +
-    '\n' +
-    '<!-- projects-->\n' +
-    '\n' +
-    '<section class="projects" id="section3"  data-aos="zoom-in">\n' +
-    '    <h1>Наше рабочее пространство</h1>\n' +
-    '    <div class="project-images">\n' +
-    '        <div class="prj-img">\n' +
-    '            <img src="./img/bluesky/jahon.jpg" alt="">\n' +
-    '            <div class="details">\n' +
-    '                <h2>Инвестируйте в </h2>\n' +
-    '                <h1>торговлю</h1>\n' +
-    '                <i class="fa fa-arrow-circle-right"></i>\n' +
-    '            </div>\n' +
-    '\n' +
-    '        </div>\n' +
-    '        <div class="prj-img">\n' +
-    '            <img src="./img/bluesky/karinaandjahon.jpg" alt="">\n' +
-    '            <div class="details">\n' +
-    '                <h2>Инвестируйте в </h2>\n' +
-    '                <h1>торговлю</h1>\n' +
-    '                <i class="fa fa-arrow-circle-right"></i>\n' +
-    '            </div>\n' +
-    '        </div>\n' +
-    '        <div class="prj-img">\n' +
-    '            <img src="./img/bluesky/karinaAndCofe.jpg" alt="">\n' +
-    '            <div class="details">\n' +
-    '                <h2>Инвестируйте в </h2>\n' +
-    '                <h1>торговлю</h1>\n' +
-    '                <i class="fa fa-arrow-circle-right"></i>\n' +
-    '            </div>\n' +
-    '        </div>\n' +
-    '\n' +
-    '\n' +
-    '    </div>\n' +
-    '</section>\n' +
-    '<section  class="numbers"  >\n' +
-    '    <div class="who">\n' +
-    '        <h1 class="num-text">\n' +
-    '            КТО ТАКОЕ ТРЕЙДЕР И ЧЕМ ОН ДЕЛАЕТ?</h1>\n' +
-    '        <p>\n' +
-    '\n' +
-    '            Нам и нашей команде задают много таких вопросов: «Кто такой трейдер? Чем он занимается », и сегодня мы решили поделиться своим взглядом на это загадочное слово.\n' +
-    '            Трейдер в переводе с английского - это трейдер в самом широком смысле этого слова. Профессия трейдера очень специфична и не требует диплома экономиста. Стать трейдером может каждый, но для успеха недостаточно одного желания. Вы должны иметь особую предрасположенность и постоянно совершенствоваться. Вы соревнуетесь с лучшими из лучших,\n' +
-    '            и единственный показатель эффективности трейдера - биржевой доход.\n' +
-    '            Незнакомые со спецификой работы на финансовом рынке считают, что трейдер зарабатывает баснословные деньги в кратчайшие сроки. Достаточно только научиться «читать биржевые графики», освоить простые методы торговли, прочитать пару книг о трейдинге и пару миллионов в вашем кармане!\n' +
-    '\n' +
-    '            На самом деле это заблуждение, не имеющее ничего общего с реальностью. Трейдер может полгода терпеть убытки, а затем покрывать все неудачи серией блестящих сделок.\n' +
-    '        </p>\n' +
-    '\n' +
-    '    </div>\n' +
-    '</section>\n' +
-    '<!--team-->\n' +
-    '<section class="team" id="section4"  data-aos="flip-left">\n' +
-    '    <h1 class="team-h1" >Познакомьтесь с нашей командой</h1>\n' +
-    '    <div class="grid-wrapper">\n' +
-    '        <div class="team-mem">\n' +
-    '            <img src="./img/bluesky/karinaProfile.jpg" alt="">\n' +
-    '            <h1>Karina Nuriddinova</h1>\n' +
-    '            <h2>Генеральный директор и основатель</h2>\n' +
-    '\n' +
-    '        </div>\n' +
-    '        <div class="team-mem">\n' +
-    '            <img src="./img/bluesky/UmarjonProfile.jpg" alt="">\n' +
-    '            <h1>Умарджон</h1>\n' +
-    '            <h2>Управляющий делами</h2>\n' +
-    '\n' +
-    '        </div>\n' +
-    '        <div class="team-mem">\n' +
-    '            <img src="./img/bluesky/ustozProfil.jpg" alt="">\n' +
-    '            <h1>Toshtemirov Feruzbek</h1>\n' +
-    '            <h2>Лидер группы</h2>\n' +
-    '\n' +
-    '        </div>\n' +
-    '    </div>\n' +
-    '</section>\n' +
-    '\n' +
-    '<section class="blogs" id="section5"  data-aos="zoom-in-up">\n' +
-    '    <h1 class="blog-h1">Наши последние блоги</h1>\n' +
-    '    <div class="grid-wrapper">\n' +
-    '        <div class="blog">\n' +
-    '            <img src="./img/about-us/munisa-and-karina.jpg" alt="">\n' +
-    '            <h1>У нас грандиозная гость - Муниса</h1>\n' +
-    '            <p>Друзья, сегодня у нас в гостях была замечательная певица Муниса Ризаева.\n' +
-    '                Мы консультировались с ней по интересующим вопросам. Надеемся, вы многому научились для себя. Мы будем рады приветствовать вас снова.\n' +
-    '                <br>\n' +
-    '                <span style="margin-top: 4px">25.02.2021</span>\n' +
-    '                </p>\n' +
-    '            <br>\n' +
-    '\n' +
-    '            <br>\n' +
-    '            <a >Ещё</a>\n' +
-    '\n' +
-    '        </div>\n' +
-    '        <div class="blog">\n' +
-    '            <img src="./img/resurce/blog2.png" alt="">\n' +
-    '            <h1>КАКИМИ КАЧЕСТВАМИ ДОЛЖЕН ОБЛАДАТЬ ТРЕЙДЕР ?</h1>\n' +
-    '            <p>Друзья, сегодня мы с моей командой решили поделиться парочкой советов начинающим трейдерам.\n' +
-    '                Привлечение суммы, которую вы готовы проиграть.\n' +
-    '                На рынке форекс существует такая негласная закономерность, что начинающий трейдер всегда проигрывает\n' +
-    '                (на сленге трейдера - «сливает») свой первый депозит.\n' +
-    '                <br>\n' +
-    '                <span style="margin-top: 4px">18.02.2021</span>\n' +
-    '            <p id="dot3"></p>\n' +
-    '            <p id="more3">\n' +
-    '                Это связано с тем, что новичок\n' +
-    '                в торговле финансовыми инструментами еще не обладает всеми необходимыми торговыми навыками и психологией торговли. Некоторые брокеры форекс предлагают своим клиентам открыть так называемый центовый счет, который позволит им начать торговать реальными деньгами с суммы от 1 до 10 долларов.\n' +
-    '                Самоконтроль и торговая психология.\n' +
-    '                Профессиональные трейдеры знают, что такое психология трейдера. Новички на рынке форекс должны научиться контролировать свои эмоции, бороться со страхом и быть более решительными. Однако при этом следует быть осторожным и действовать по установленным правилам, а иногда просто нужно подождать.\n' +
-    '                Демо счет\n' +
-    '                Каждый профессиональный трейдер начинал свой торговый путь с торговли на демо-счете. Демо-счет - виртуальный счет, предоставляемый брокером для обучения тестированию торговой системы. Благодаря демо-счету начинающий трейдер может приобрести практические навыки торговли на финансовых рынках без риска потерять реальные деньги.\n' +
-    '                Совет профессиональных трейдеров: занимайтесь на демо-счете, пока ваша торговая стратегия не начнет приносить стабильную прибыль.\n' +
-    '                <br>\n' +
-    '                <span style="margin-top: 4px">18.02.2021</span>\n' +
-    '            </p>\n' +
-    '            <br>\n' +
-    '            <br>\n' +
-    '            <a  id="myBtnText3" style="cursor:pointer;"  onclick="myBtnText3()" >Ещё</a>\n' +
-    '\n' +
-    '        </div>\n' +
-    '        <div class="blog">\n' +
-    '            <img src="./img/about-us/austin-distel-DfjJMVhwH_8-unsplash.jpg" alt="">\n' +
-    '            <h1>\n' +
-    '                НЕСКОЛЬКО СЛОВ О НАШЕМ ОСНОВАТЕЛЕ</h1>\n' +
-    '            <p>И вот друзья сегодня мы хотели немного рассказать о нашем основателе.\n' +
-    '\n' +
-    '                Нуриддинова Карина - директор и основатель компании Bluesky.\n' +
-    '                Имеет более 7 лет профессионального трейдинга на международном рынке.\n' +
-    '                рынок позади нее. Имеет опыт работы с инвесторами в более\n' +
-    '                более 15 стран, более 100 успешных проектов. Под ее руководством\n' +
-    '                нам удалось добиться высоких результатов для наших инвесторов.\n' +
-    '                <br>\n' +
-    '                <span style="margin-top: 4px">18.02.2021</span>\n' +
-    '            </p>\n' +
-    '                <br>\n' +
-    '\n' +
-    '                <br>\n' +
-    '                <a >Ещё</a>\n' +
-    '        </div>\n' +
-    '    </div>\n' +
-    '</section>\n' +
-    '\n' +
-    '    <section class="map">\n' +
-    '        <div class="mapouter"><div class="gmap_canvas"><iframe width="1520" height="426" id="gmap_canvas" src="https://maps.google.com/maps?q=Tashkent%20,%20Uzbekistan%20Yunusabad%20district%20Osiyo,%2039&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies2.org">fmovies</a><br><style>.mapouter{position:relative;text-align:right;height:426px;width:1520px;}</style>\n' +
-    '            <a href="https://www.embedgooglemap.net">\n' +
-    '            </a>\n' +
-    '            <style>.gmap_canvas {overflow:hidden;background:none!important;height:426px;width:1520px;}</style></div></div>\n' +
-    '    </section>\n' +
-    '<section class="footer">\n' +
-    '    <div class="grid-wrapper">\n' +
-    '        <div class="col-4 footer1">\n' +
-    '            <h1>Blue Sky Investment</h1>\n' +
-    '            <p>Лучшие идеи, лучшие инвестиции, больше прибыли.\n' +
-    '                Это лучшие отношения успеха. </p>\n' +
-    '            <div class="soceal-profils">\n' +
-    '                <a href="https://www.youtube.com/channel/UCqtfzERelXeRcQlknqHFQ0Q?guided_help_flow=5" target="_blank">  <i class=  "fa fa-youtube"></i></a>\n' +
-    '                <a href="https://instagram.com/bluesky.uz?igshid=1s8ub10jaz1m3" target="_blank"><i class="fa fa-instagram"></i></a>\n' +
-    '                <a href="https://www.facebook.com/Blueskyuz-100693928728221" target="_blank"><i class="fa fa-facebook"></i></a>\n' +
-    '                <a href="https://t.me/blueskyinvestment" target="_blank"><i class="fa fa-telegram" ></i></a>\n' +
-    '            </div>\n' +
-    '        </div>\n' +
-    '        <div class="col-4 footer2">\n' +
-    '            <h1> Контактная информация</h1>\n' +
-    '            <h4>Ташкент, Узбекистан</h4>\n' +
-    '            <h4>Юнусабадский район </h4>\n' +
-    '            <h4>Осиё, 39 </h4>\n' +
-    '            <h4>+998955142727</h4>\n' +
-    '            <h4>08:00-20:00</h4>\n' +
-    '            <a href="blueSkyInvestment@gamil.com"><h4>blueSkyInvestment@gamil.com</h4></a>\n' +
-    '            <a href=""><h4></h4></a>\n' +
-    '        </div>\n' +
-    '    </div>\n' +
-    '    </div>\n' +
-    '</section>\n' +
     '<i id="scrolltp" class="fa fa-arrow-up"></i>\n' +
-    '</section><section id="language">\n' +
+    '</section>\n' +
+    '</section>'
+
+var uz='<section id="language">\n' +
     '<header>\n' +
     '    <nav class="navbar">\n' +
-    '        <div class="theme">\n' +
-    '            <input id="checkbox" type="checkbox" class="checkbox">\n' +
+    '        <div class="theme"  style="margin-left: 85px;margin-top: 4px">\n' +
+    '            <input id="checkbox" type="checkbox"style="margin-left: 85px;margin-top: 4px" class="checkbox">\n' +
     '            <label for="checkbox" class="label">\n' +
     '                <div class="ball"></div>\n' +
     '            </label>\n' +
@@ -741,326 +429,7 @@ var ru= '<header>\n' +
     '            <span class="bar"></span>\n' +
     '            <span class="bar"></span>\n' +
     '        </a>\n' +
-    '        <h1>BLUE SKY INVESTMENT</h1>\n' +
-    '        <div class="dropdown">\n' +
-    '            <button onclick="myFunction()" class="dropbtn">Язык</button>\n' +
-    '            <div id="myDropdown" class="dropdown-content">\n' +
-    '                <a href="#home" onclick="languageEn()">Eng</a>\n' +
-    '                <a href="#about" onclick="languageUz()">Uz</a>\n' +
-    '                <a href="#contact" onclick="languageRu()">Ru</a>\n' +
-    '            </div>\n' +
-    '        </div>\n' +
-    '        <ul class="nav-list" id="nav-list">\n' +
-    '            <li><a href="#">Домой</a></li>\n' +
-    '            <li><a href="#section2">О нас</a></li>\n' +
-    '            <li><a href="#section3">Наша работа</a></li>\n' +
-    '            <li><a href="#section4">Команда</a></li>\n' +
-    '            <li><a href="#section5">Блог</a></li>\n' +
-    '\n' +
-    '        </ul>\n' +
-    '    </nav>\n' +
-    '\n' +
-    '\n' +
-    '    <div class="row">\n' +
-    '        <div class="header-content">\n' +
-    '            <h1 class="header_h1">ЧТО ТАКОЕ ТРЕЙДИНГ И КТО ТАКОЙ ТРЕЙДЕР?</h1>\n' +
-    '            <p>\n' +
-    '                И так друзья как вы уже могли понять сегодня речь пойдет о том кто же это такой таинственный человек скрывается за словом трейдер.\n' +
-    '                Если поискать информацию в интернете там говорится что трейдер это торговец, действующий по собственной инициативе и стремящийся извлечь прибыль непосредственно из процесса торговли.\n' +
-    '            </p>\n' +
-    '            <p id="dots"></p>\n' +
-    '            <p id="more">\n' +
-    '                По своему опыту могу сказать что трейдер это мостик между инвестором и биржей. Цель трейдера в первую очередь помочь заработать инвестору, а уже потом заработать и самому.\n' +
-    '\n' +
-    '                Людям не разбирающимся в этом направлении на первый взгляд может показаться что профессия очень легкая. Да что тут сложного думают они сидишь за компьютером пару часов нажимая кнопочки и деньги сами текут в карманы. Спешу вас огорчить так только кажется на первый взгляд.\n' +
-    '                Трейдинг в первую очередь это контроль над своими эмоциями. Если вы вспыльчивый или же у вас нет терпения, успеха в трейдинге вы не добьетесь. Во вторых это умение анализировать текущую ситуацию в мире и на бирже. Нужно уметь структурировать очень много информации. И не зря говорят что трейдинг это интеллектуальный спорт.</p>\n' +
-    '            <br>\n' +
-    '            <br>\n' +
-    '\n' +
-    '            <a  id="myText"  class="learnmore" onclick="myText()">Ещё</a>\n' +
-    '\n' +
-    '        </div>\n' +
-    '        <div class="hero-img">\n' +
-    '            <img src="./img/about-us/undraw_Data_trends_re_2cdy.svg" width="439" height="389">\n' +
-    '        </div>\n' +
-    '    </div>\n' +
-    '</header>\n' +
-    '\n' +
-    '<!--services-->\n' +
-    '<section class="services" id="section1" data-aos="fade-right">\n' +
-    '    <div class="container">\n' +
-    '        <div class="grid-wrapper">\n' +
-    '            <div class="grid-box mobileapp">\n' +
-    '                <img src="./img/svg/oil.svg" alt="">\n' +
-    '                <h1>Нефть</h1>\n' +
-    '            </div>\n' +
-    '            <div class="grid-box webdesign">\n' +
-    '                <img src="./img/svg/gold%20(2).png"  alt="">\n' +
-    '                <h1>Золото</h1>\n' +
-    '            </div>\n' +
-    '            <div class="grid-box marketing">\n' +
-    '                <img src="./img/svg/money-bag.svg" alt="">\n' +
-    '                <h1>Доллар</h1>\n' +
-    '            </div>\n' +
-    '            <div class="grid-box branding">\n' +
-    '                <img src="./img/resurce/dolor.png" alt="">\n' +
-    '                <h1>Торговля</h1>\n' +
-    '            </div>\n' +
-    '        </div>\n' +
-    '\n' +
-    '        <div class="services-content">\n' +
-    '            <div class="circle">\n' +
-    '                <img src="./img/resurce/circle.svg" >\n' +
-    '            </div>\n' +
-    '            <h1>ЧТО ТАКОЕ ФОНДОВАЯ БИРЖА</h1>\n' +
-    '            <p>\n' +
-    '                Это торговая площадка, где покупатели и продавцы встречаются для торговли акциями, облигациями, другими ценными бумагами и финансовыми инструментами. Здесь продаются и перепродаются ценные бумаги,\n' +
-    '                Здесь формируется их рыночная стоимость, разрабатываются стандарты работы для всех участников рынка.</p>\n' +
-    '            <p id="dot"></p>\n' +
-    '            <p id="more2">Биржа работает по определенным правилам, среди которых следует упомянуть, прежде всего, государственное регулирование. Вот как вы можете обеспечить выполнение транзакций и общую надежность рынка: гарантии. Правда, постоянный контроль, строгий регламент.\n' +
-    '                За счет строгого соблюдения правил и контроля за их выполнением,\n' +
-    '                а также совершенствование технологий сводит к минимуму риски для участников процесса.</p>\n' +
-    '            <a id="myBtnText"  onclick="myBtnText()" class="ctn">Ещё</a>\n' +
-    '        </div>\n' +
-    '    </div>\n' +
-    '</section>\n' +
-    '\n' +
-    '<section class="numbers" id="section2"  data-aos="fade-left">\n' +
-    '    <!--    <div class="who">-->\n' +
-    '    <!--   <h1 class="num-text">-->\n' +
-    '    <!--       WHO IS A TRADER AND WHAT DOES HE DO?</h1>-->\n' +
-    '    <!--    <p>-->\n' +
-    '\n' +
-    '    <!--        A lot of such questions are asked to us and our team “Who is a trader? What does he do ”, and today we decided to share our view on this mysterious word.-->\n' +
-    '    <!--        A trader in translation from English is a trader in the broadest sense of the word. The profession of a trader is very specific and does not require a diploma in economics. Anyone can become a trader, but desire alone is not enough to be successful. You must have a special predisposition and constantly improve. You are competing with the best of the best,-->\n' +
-    '    <!--        and the only indicator of a trader\'s performance is the exchange yield.-->\n' +
-    '    <!--        Those unfamiliar with the specifics of working in the financial market believe that a trader earns fabulous money in the shortest possible time. That one has only to learn to "read stock charts", master simple trading techniques, read a couple of books about trading, and a couple of million in your pocket!-->\n' +
-    '\n' +
-    '    <!--        In fact, this is a delusion that has nothing to do with reality. A trader can take losses for half a year, and then cover all the failures with a series of brilliant trades.-->\n' +
-    '    <!--    </p>-->\n' +
-    '\n' +
-    '    <!--    </div>-->\n' +
-    '    <div class="ocomapany">\n' +
-    '        <h1 class="num-text">\n' +
-    '            О компании</h1>\n' +
-    '        <p>\n' +
-    '\n' +
-    '            Дорогие друзья и инвесторы! Мы рады приветствовать вас на сайте bluesky.investment. Выражаем Вам признательность за внимание и хотим сказать несколько слов о нашей компании. Bluesky.investment - финансовая и инвестиционная консалтинговая компания мирового уровня. Учредитель и генеральный директор нашей компании - Нуриддинова Карина. Она профессиональный трейдер и имеет 7-летний опыт работы на бирже Forex. Несмотря на то, что наша компания была основана совсем недавно, мы можем с уверенностью сказать, что являемся лидерами рынка и уже работали с иностранными инвесторами со всего мира.        </p>\n' +
-    '    </div>\n' +
-    '\n' +
-    '    <div class="container">\n' +
-    '        <div class="grid-wrapper">\n' +
-    '            <div class="grid-box hpyclients">\n' +
-    '                <h1>2500+</h1>\n' +
-    '                <h2>Счастливые клиенты</h2>\n' +
-    '            </div>\n' +
-    '            <div class="grid-box prjcompleted">\n' +
-    '                <h1>750+</h1>\n' +
-    '                <h2>Завершенных проектов</h2>\n' +
-    '            </div>\n' +
-    '            <div class="grid-box runningprj">\n' +
-    '                <h1>500+</h1>\n' +
-    '                <h2>Работающие проекты</h2>\n' +
-    '            </div>\n' +
-    '            <div class="grid-box designs">\n' +
-    '                <h1>10+</h1>\n' +
-    '                <h2>\n' +
-    '                    Год опыта </h2>\n' +
-    '            </div>\n' +
-    '        </div>\n' +
-    '        <div class="mockup-img">\n' +
-    '            <img class="mockup_image" src="img/bluesky/karina.jpg"/></div>\n' +
-    '    </div>\n' +
-    '</section>\n' +
-    '\n' +
-    '\n' +
-    '<!-- projects-->\n' +
-    '\n' +
-    '<section class="projects" id="section3"  data-aos="zoom-in">\n' +
-    '    <h1>Наше рабочее пространство</h1>\n' +
-    '    <div class="project-images">\n' +
-    '        <div class="prj-img">\n' +
-    '            <img src="./img/bluesky/jahon.jpg" alt="">\n' +
-    '            <div class="details">\n' +
-    '                <h2>Инвестируйте в </h2>\n' +
-    '                <h1>торговлю</h1>\n' +
-    '                <i class="fa fa-arrow-circle-right"></i>\n' +
-    '            </div>\n' +
-    '\n' +
-    '        </div>\n' +
-    '        <div class="prj-img">\n' +
-    '            <img src="./img/bluesky/karinaandjahon.jpg" alt="">\n' +
-    '            <div class="details">\n' +
-    '                <h2>Инвестируйте в </h2>\n' +
-    '                <h1>торговлю</h1>\n' +
-    '                <i class="fa fa-arrow-circle-right"></i>\n' +
-    '            </div>\n' +
-    '        </div>\n' +
-    '        <div class="prj-img">\n' +
-    '            <img src="./img/bluesky/karinaAndCofe.jpg" alt="">\n' +
-    '            <div class="details">\n' +
-    '                <h2>Инвестируйте в </h2>\n' +
-    '                <h1>торговлю</h1>\n' +
-    '                <i class="fa fa-arrow-circle-right"></i>\n' +
-    '            </div>\n' +
-    '        </div>\n' +
-    '\n' +
-    '\n' +
-    '    </div>\n' +
-    '</section>\n' +
-    '<section  class="numbers"  >\n' +
-    '    <div class="who">\n' +
-    '        <h1 class="num-text">\n' +
-    '            КТО ТАКОЕ ТРЕЙДЕР И ЧЕМ ОН ДЕЛАЕТ?</h1>\n' +
-    '        <p>\n' +
-    '\n' +
-    '            Нам и нашей команде задают много таких вопросов: «Кто такой трейдер? Чем он занимается », и сегодня мы решили поделиться своим взглядом на это загадочное слово.\n' +
-    '            Трейдер в переводе с английского - это трейдер в самом широком смысле этого слова. Профессия трейдера очень специфична и не требует диплома экономиста. Стать трейдером может каждый, но для успеха недостаточно одного желания. Вы должны иметь особую предрасположенность и постоянно совершенствоваться. Вы соревнуетесь с лучшими из лучших,\n' +
-    '            и единственный показатель эффективности трейдера - биржевой доход.\n' +
-    '            Незнакомые со спецификой работы на финансовом рынке считают, что трейдер зарабатывает баснословные деньги в кратчайшие сроки. Достаточно только научиться «читать биржевые графики», освоить простые методы торговли, прочитать пару книг о трейдинге и пару миллионов в вашем кармане!\n' +
-    '\n' +
-    '            На самом деле это заблуждение, не имеющее ничего общего с реальностью. Трейдер может полгода терпеть убытки, а затем покрывать все неудачи серией блестящих сделок.\n' +
-    '        </p>\n' +
-    '\n' +
-    '    </div>\n' +
-    '</section>\n' +
-    '<!--team-->\n' +
-    '<section class="team" id="section4"  data-aos="flip-left">\n' +
-    '    <h1 class="team-h1" >Познакомьтесь с нашей командой</h1>\n' +
-    '    <div class="grid-wrapper">\n' +
-    '        <div class="team-mem">\n' +
-    '            <img src="./img/bluesky/karinaProfile.jpg" alt="">\n' +
-    '            <h1>Karina Nuriddinova</h1>\n' +
-    '            <h2>Генеральный директор и основатель</h2>\n' +
-    '\n' +
-    '        </div>\n' +
-    '        <div class="team-mem">\n' +
-    '            <img src="./img/bluesky/UmarjonProfile.jpg" alt="">\n' +
-    '            <h1>Умарджон</h1>\n' +
-    '            <h2>Управляющий делами</h2>\n' +
-    '\n' +
-    '        </div>\n' +
-    '        <div class="team-mem">\n' +
-    '            <img src="./img/bluesky/ustozProfil.jpg" alt="">\n' +
-    '            <h1>Toshtemirov Feruzbek</h1>\n' +
-    '            <h2>Лидер группы</h2>\n' +
-    '\n' +
-    '        </div>\n' +
-    '    </div>\n' +
-    '</section>\n' +
-    '\n' +
-    '<section class="blogs" id="section5"  data-aos="zoom-in-up">\n' +
-    '    <h1 class="blog-h1">Наши последние блоги</h1>\n' +
-    '    <div class="grid-wrapper">\n' +
-    '        <div class="blog">\n' +
-    '            <img src="./img/about-us/munisa-and-karina.jpg" alt="">\n' +
-    '            <h1>У нас грандиозная гость - Муниса</h1>\n' +
-    '            <p>Друзья, сегодня у нас в гостях была замечательная певица Муниса Ризаева.\n' +
-    '                Мы консультировались с ней по интересующим вопросам. Надеемся, вы многому научились для себя. Мы будем рады приветствовать вас снова.\n' +
-    '                <br>\n' +
-    '                <span style="margin-top: 4px">25.02.2021</span>\n' +
-    '                </p>\n' +
-    '            <br>\n' +
-    '\n' +
-    '            <br>\n' +
-    '            <a >Ещё</a>\n' +
-    '\n' +
-    '        </div>\n' +
-    '        <div class="blog">\n' +
-    '            <img src="./img/resurce/blog2.png" alt="">\n' +
-    '            <h1>КАКИМИ КАЧЕСТВАМИ ДОЛЖЕН ОБЛАДАТЬ ТРЕЙДЕР ?</h1>\n' +
-    '            <p>Друзья, сегодня мы с моей командой решили поделиться парочкой советов начинающим трейдерам.\n' +
-    '                Привлечение суммы, которую вы готовы проиграть.\n' +
-    '                На рынке форекс существует такая негласная закономерность, что начинающий трейдер всегда проигрывает\n' +
-    '                (на сленге трейдера - «сливает») свой первый депозит.\n' +
-    '                <br>\n' +
-    '                <span style="margin-top: 4px">18.02.2021</span>\n' +
-    '            <p id="dot3"></p>\n' +
-    '            <p id="more3">\n' +
-    '                Это связано с тем, что новичок\n' +
-    '                в торговле финансовыми инструментами еще не обладает всеми необходимыми торговыми навыками и психологией торговли. Некоторые брокеры форекс предлагают своим клиентам открыть так называемый центовый счет, который позволит им начать торговать реальными деньгами с суммы от 1 до 10 долларов.\n' +
-    '                Самоконтроль и торговая психология.\n' +
-    '                Профессиональные трейдеры знают, что такое психология трейдера. Новички на рынке форекс должны научиться контролировать свои эмоции, бороться со страхом и быть более решительными. Однако при этом следует быть осторожным и действовать по установленным правилам, а иногда просто нужно подождать.\n' +
-    '                Демо счет\n' +
-    '                Каждый профессиональный трейдер начинал свой торговый путь с торговли на демо-счете. Демо-счет - виртуальный счет, предоставляемый брокером для обучения тестированию торговой системы. Благодаря демо-счету начинающий трейдер может приобрести практические навыки торговли на финансовых рынках без риска потерять реальные деньги.\n' +
-    '                Совет профессиональных трейдеров: занимайтесь на демо-счете, пока ваша торговая стратегия не начнет приносить стабильную прибыль.\n' +
-    '                <br>\n' +
-    '                <span style="margin-top: 4px">18.02.2021</span>\n' +
-    '            </p>\n' +
-    '            <br>\n' +
-    '            <br>\n' +
-    '            <a  id="myBtnText3" style="cursor:pointer;"  onclick="myBtnText3()" >Ещё</a>\n' +
-    '\n' +
-    '        </div>\n' +
-    '        <div class="blog">\n' +
-    '            <img src="./img/about-us/austin-distel-DfjJMVhwH_8-unsplash.jpg" alt="">\n' +
-    '            <h1>\n' +
-    '                НЕСКОЛЬКО СЛОВ О НАШЕМ ОСНОВАТЕЛЕ</h1>\n' +
-    '            <p>И вот друзья сегодня мы хотели немного рассказать о нашем основателе.\n' +
-    '\n' +
-    '                Нуриддинова Карина - директор и основатель компании Bluesky.\n' +
-    '                Имеет более 7 лет профессионального трейдинга на международном рынке.\n' +
-    '                рынок позади нее. Имеет опыт работы с инвесторами в более\n' +
-    '                более 15 стран, более 100 успешных проектов. Под ее руководством\n' +
-    '                нам удалось добиться высоких результатов для наших инвесторов.\n' +
-    '                <br>\n' +
-    '                <span style="margin-top: 4px">18.02.2021</span>\n' +
-    '            </p>\n' +
-    '                <br>\n' +
-    '\n' +
-    '                <br>\n' +
-    '                <a >Ещё</a>\n' +
-    '        </div>\n' +
-    '    </div>\n' +
-    '</section>\n' +
-    '\n' +
-    '    <section class="map">\n' +
-    '        <div class="mapouter"><div class="gmap_canvas"><iframe width="1520" height="426" id="gmap_canvas" src="https://maps.google.com/maps?q=Tashkent%20,%20Uzbekistan%20Yunusabad%20district%20Osiyo,%2039&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies2.org">fmovies</a><br><style>.mapouter{position:relative;text-align:right;height:426px;width:1520px;}</style>\n' +
-    '            <a href="https://www.embedgooglemap.net">\n' +
-    '            </a>\n' +
-    '            <style>.gmap_canvas {overflow:hidden;background:none!important;height:426px;width:1520px;}</style></div></div>\n' +
-    '    </section>\n' +
-    '<section class="footer">\n' +
-    '    <div class="grid-wrapper">\n' +
-    '        <div class="col-4 footer1">\n' +
-    '            <h1>Blue Sky Investment</h1>\n' +
-    '            <p>Лучшие идеи, лучшие инвестиции, больше прибыли.\n' +
-    '                Это лучшие отношения успеха. </p>\n' +
-    '            <div class="soceal-profils">\n' +
-    '                <a href="https://www.youtube.com/channel/UCqtfzERelXeRcQlknqHFQ0Q?guided_help_flow=5" target="_blank">  <i class=  "fa fa-youtube"></i></a>\n' +
-    '                <a href="https://instagram.com/bluesky.uz?igshid=1s8ub10jaz1m3" target="_blank"><i class="fa fa-instagram"></i></a>\n' +
-    '                <a href="https://www.facebook.com/Blueskyuz-100693928728221" target="_blank"><i class="fa fa-facebook"></i></a>\n' +
-    '                <a href="https://t.me/blueskyinvestment" target="_blank"><i class="fa fa-telegram" ></i></a>\n' +
-    '            </div>\n' +
-    '        </div>\n' +
-    '        <div class="col-4 footer2">\n' +
-    '            <h1> Контактная информация</h1>\n' +
-    '            <h4>Ташкент, Узбекистан</h4>\n' +
-    '            <h4>Юнусабадский район </h4>\n' +
-    '            <h4>Осиё, 39 </h4>\n' +
-    '            <h4>+998955142727</h4>\n' +
-    '            <h4>08:00-20:00</h4>\n' +
-    '            <a href="blueSkyInvestment@gamil.com"><h4>blueSkyInvestment@gamil.com</h4></a>\n' +
-    '            <a href=""><h4></h4></a>\n' +
-    '        </div>\n' +
-    '    </div>\n' +
-    '    </div>\n' +
-    '</section>\n' +
-    '<i id="scrolltp" class="fa fa-arrow-up"></i>'
-var uz= '<header>\n' +
-    '    <nav class="navbar">\n' +
-    '        <div class="theme">\n' +
-    '            <input id="checkbox" type="checkbox" class="checkbox">\n' +
-    '            <label for="checkbox" class="label">\n' +
-    '                <div class="ball"></div>\n' +
-    '            </label>\n' +
-    '        </div>\n' +
-    '        <a href="#" class="toggle-button" onclick="myMenu()">\n' +
-    '            <span class="bar"></span>\n' +
-    '            <span class="bar"></span>\n' +
-    '            <span class="bar"></span>\n' +
-    '        </a>\n' +
-    '        <h1>BLUE SKY INVESTMENT</h1>\n' +
+    '        <h1 class="gradient-text">BLUE SKY INVESTMENT</h1>\n' +
     '        <div class="dropdown">\n' +
     '            <button onclick="myFunction()" class="dropbtn">Til</button>\n' +
     '            <div id="myDropdown" class="dropdown-content">\n' +
@@ -1156,7 +525,7 @@ var uz= '<header>\n' +
     '            Kompaniya haqida</h1>\n' +
     '        <p>\n' +
     '\n' +
-    '            Aziz do\'stlar va investorlar, biz sizni Blueskyinvestment veb-saytida kutib olishdan mamnunmiz, e\'tiboringiz uchun o\'z minnatdorchiligimizni bildiramiz va kompaniyamiz haqida bir necha so\'z aytmoqchimiz. Blueskyinvestment - bu jahon miqyosidagi moliyaviy va investitsiya bo\'yicha konsalting kompaniyasi. Kompaniyamiz asoschisi va bosh direktori Karina Nuriddinova. U professional treyder va Forex birjasida 7 yillik tajribaga ega. Kompaniyamiz yaqinda tashkil etilganiga qaramay, biz bozorda etakchimiz va 15 mamlakatdan kelgan xorijiy investorlar bilan allaqachon ishlaganmiz deb, ishonch bilan aytishimiz mumkin.\n' +
+    '            Aziz do\'stlar va investorlar, biz sizni Blueskyinvestment veb-saytida kutib olishdan mamnunmiz, e\'tiboringiz uchun o\'z minnatdorchiligimizni bildiramiz va kompaniyamiz haqida bir necha so\'z aytmoqchimiz. Blueskyinvestment - bu jahon miqyosidagi moliyaviy va investitsiya bo\'yicha konsalting kompaniyasi. Kompaniyamiz asoschisi va bosh direktori Karina Nuriddinova. U professional treyder va Forex birjasida 7 yillik tajribaga ega. Kompaniyamiz yaqinda tashkil etilganiga qaramay, biz bozorda etakchimiz va 15 mamlakatdan kelgan xorijiy investorlar bilan allaqachon ishlaganmiz deb, ishonch bilan aytishimiz mumkin.Blue Sky kompaniyasi asosan neft, oltin, qimmatbaho metallar va valyuta juftliklari bilan savdolarni amalga oshiradi.\n' +
     '        </p>\n' +
     '    </div>\n' +
     '\n' +
@@ -1171,17 +540,17 @@ var uz= '<header>\n' +
     '                <h2>Tugallangan proyektlar</h2>\n' +
     '            </div>\n' +
     '            <div class="grid-box runningprj">\n' +
-    '                <h1>500+</h1>\n' +
+    '                <h1>200+</h1>\n' +
     '                <h2>Faol proyektlar</h2>\n' +
     '            </div>\n' +
     '            <div class="grid-box designs">\n' +
-    '                <h1>10+</h1>\n' +
+    '                <h1>7+</h1>\n' +
     '                <h2>\n' +
     '                    Yıllık tajriba </h2>\n' +
     '            </div>\n' +
     '        </div>\n' +
     '        <div class="mockup-img">\n' +
-    '            <img class="mockup_image" src="img/bluesky/karina.jpg"/></div>\n' +
+    '            <img class="mockup_image" src="img/about-us/karina.jpg"/></div>\n' +
     '    </div>\n' +
     '</section>\n' +
     '\n' +
@@ -1316,8 +685,8 @@ var uz= '<header>\n' +
     '    <div class="grid-wrapper">\n' +
     '        <div class="col-4 footer1">\n' +
     '            <h1>Blue Sky Investment</h1>\n' +
-    '            <p>Yaxshiroq g\'oyalar, yaxshiroq investitsiya, ko\'proq foyda.\n' +
-    '                Bu Muvaffaqiyat sari yo\'ldir. </p>\n' +
+    '            <p>Лучшие идеи, лучшие инвестиции, больше прибыли.\n' +
+    '                Это лучшие отношения успеха. </p>\n' +
     '            <div class="soceal-profils">\n' +
     '                <a href="https://www.youtube.com/channel/UCqtfzERelXeRcQlknqHFQ0Q?guided_help_flow=5" target="_blank">  <i class=  "fa fa-youtube"></i></a>\n' +
     '                <a href="https://instagram.com/bluesky.uz?igshid=1s8ub10jaz1m3" target="_blank"><i class="fa fa-instagram"></i></a>\n' +
@@ -1338,7 +707,329 @@ var uz= '<header>\n' +
     '    </div>\n' +
     '    </div>\n' +
     '</section>\n' +
-    '<i id="scrolltp" class="fa fa-arrow-up"></i>'
+    '<i id="scrolltp" class="fa fa-arrow-up"></i>\n' +
+    '</section>'
+var ru='<section id="language">\n' +
+    '<header>\n' +
+    '    <nav class="navbar">\n' +
+    '        <div class="theme"  style="margin-left: 85px;margin-top: 4px">\n' +
+    '            <input id="checkbox" type="checkbox" class="checkbox">\n' +
+    '            <label for="checkbox" class="label">\n' +
+    '                <div class="ball"></div>\n' +
+    '            </label>\n' +
+    '        </div>\n' +
+    '        <a href="#" class="toggle-button" onclick="myMenu()">\n' +
+    '            <span class="bar"></span>\n' +
+    '            <span class="bar"></span>\n' +
+    '            <span class="bar"></span>\n' +
+    '        </a>\n' +
+    '        <h1 class="gradient-text">BLUE SKY INVESTMENT</h1>\n' +
+    '        <div class="dropdown">\n' +
+    '            <button onclick="myFunction()" class="dropbtn">Язык</button>\n' +
+    '            <div id="myDropdown" class="dropdown-content">\n' +
+    '                <a href="#home" onclick="languageEn()">Eng</a>\n' +
+    '                <a href="#about" onclick="languageUz()">Uz</a>\n' +
+    '                <a href="#contact" onclick="languageRu()">Ru</a>\n' +
+    '            </div>\n' +
+    '        </div>\n' +
+    '        <ul class="nav-list" id="nav-list">\n' +
+    '            <li><a href="#">Домой</a></li>\n' +
+    '            <li><a href="#section2">О нас</a></li>\n' +
+    '            <li><a href="#section3">Наша работа</a></li>\n' +
+    '            <li><a href="#section4">Команда</a></li>\n' +
+    '            <li><a href="#section5">Блог</a></li>\n' +
+    '\n' +
+    '        </ul>\n' +
+    '    </nav>\n' +
+    '\n' +
+    '\n' +
+    '    <div class="row">\n' +
+    '        <div class="header-content">\n' +
+    '            <h1 class="header_h1">ЧТО ТАКОЕ ТРЕЙДИНГ И КТО ТАКОЙ ТРЕЙДЕР?</h1>\n' +
+    '            <p>\n' +
+    '                И так друзья как вы уже могли понять сегодня речь пойдет о том кто же это такой таинственный человек скрывается за словом трейдер.\n' +
+    '                Если поискать информацию в интернете там говорится что трейдер это торговец, действующий по собственной инициативе и стремящийся извлечь прибыль непосредственно из процесса торговли.\n' +
+    '            </p>\n' +
+    '            <p id="dots"></p>\n' +
+    '            <p id="more">\n' +
+    '                По своему опыту могу сказать что трейдер это мостик между инвестором и биржей. Цель трейдера в первую очередь помочь заработать инвестору, а уже потом заработать и самому.\n' +
+    '\n' +
+    '                Людям не разбирающимся в этом направлении на первый взгляд может показаться что профессия очень легкая. Да что тут сложного думают они сидишь за компьютером пару часов нажимая кнопочки и деньги сами текут в карманы. Спешу вас огорчить так только кажется на первый взгляд.\n' +
+    '                Трейдинг в первую очередь это контроль над своими эмоциями. Если вы вспыльчивый или же у вас нет терпения, успеха в трейдинге вы не добьетесь. Во вторых это умение анализировать текущую ситуацию в мире и на бирже. Нужно уметь структурировать очень много информации. И не зря говорят что трейдинг это интеллектуальный спорт.</p>\n' +
+    '            <br>\n' +
+    '            <br>\n' +
+    '\n' +
+    '            <a  id="myText"  class="learnmore" onclick="myText()">Ещё</a>\n' +
+    '\n' +
+    '        </div>\n' +
+    '        <div class="hero-img">\n' +
+    '            <img src="./img/about-us/undraw_Data_trends_re_2cdy.svg" width="439" height="389">\n' +
+    '        </div>\n' +
+    '    </div>\n' +
+    '</header>\n' +
+    '\n' +
+    '<!--services-->\n' +
+    '<section class="services" id="section1" data-aos="fade-right">\n' +
+    '    <div class="container">\n' +
+    '        <div class="grid-wrapper">\n' +
+    '            <div class="grid-box mobileapp">\n' +
+    '                <img src="./img/svg/oil.svg" alt="">\n' +
+    '                <h1>Нефть</h1>\n' +
+    '            </div>\n' +
+    '            <div class="grid-box webdesign">\n' +
+    '                <img src="./img/svg/gold%20(2).png"  alt="">\n' +
+    '                <h1>Золото</h1>\n' +
+    '            </div>\n' +
+    '            <div class="grid-box marketing">\n' +
+    '                <img src="./img/svg/money-bag.svg" alt="">\n' +
+    '                <h1>Доллар</h1>\n' +
+    '            </div>\n' +
+    '            <div class="grid-box branding">\n' +
+    '                <img src="./img/resurce/dolor.png" alt="">\n' +
+    '                <h1>Торговля</h1>\n' +
+    '            </div>\n' +
+    '        </div>\n' +
+    '\n' +
+    '        <div class="services-content">\n' +
+    '            <div class="circle">\n' +
+    '                <img src="./img/resurce/circle.svg" >\n' +
+    '            </div>\n' +
+    '            <h1>ЧТО ТАКОЕ ФОНДОВАЯ БИРЖА</h1>\n' +
+    '            <p>\n' +
+    '                Это торговая площадка, где покупатели и продавцы встречаются для торговли акциями, облигациями, другими ценными бумагами и финансовыми инструментами. Здесь продаются и перепродаются ценные бумаги,\n' +
+    '                Здесь формируется их рыночная стоимость, разрабатываются стандарты работы для всех участников рынка.</p>\n' +
+    '            <p id="dot"></p>\n' +
+    '            <p id="more2">Биржа работает по определенным правилам, среди которых следует упомянуть, прежде всего, государственное регулирование. Вот как вы можете обеспечить выполнение транзакций и общую надежность рынка: гарантии. Правда, постоянный контроль, строгий регламент.\n' +
+    '                За счет строгого соблюдения правил и контроля за их выполнением,\n' +
+    '                а также совершенствование технологий сводит к минимуму риски для участников процесса.</p>\n' +
+    '            <a id="myBtnText"  onclick="myBtnText()" class="ctn">Ещё</a>\n' +
+    '        </div>\n' +
+    '    </div>\n' +
+    '</section>\n' +
+    '\n' +
+    '<section class="numbers" id="section2"  data-aos="fade-left">\n' +
+    '    <!--    <div class="who">-->\n' +
+    '    <!--   <h1 class="num-text">-->\n' +
+    '    <!--       WHO IS A TRADER AND WHAT DOES HE DO?</h1>-->\n' +
+    '    <!--    <p>-->\n' +
+    '\n' +
+    '    <!--        A lot of such questions are asked to us and our team “Who is a trader? What does he do ”, and today we decided to share our view on this mysterious word.-->\n' +
+    '    <!--        A trader in translation from English is a trader in the broadest sense of the word. The profession of a trader is very specific and does not require a diploma in economics. Anyone can become a trader, but desire alone is not enough to be successful. You must have a special predisposition and constantly improve. You are competing with the best of the best,-->\n' +
+    '    <!--        and the only indicator of a trader\'s performance is the exchange yield.-->\n' +
+    '    <!--        Those unfamiliar with the specifics of working in the financial market believe that a trader earns fabulous money in the shortest possible time. That one has only to learn to "read stock charts", master simple trading techniques, read a couple of books about trading, and a couple of million in your pocket!-->\n' +
+    '\n' +
+    '    <!--        In fact, this is a delusion that has nothing to do with reality. A trader can take losses for half a year, and then cover all the failures with a series of brilliant trades.-->\n' +
+    '    <!--    </p>-->\n' +
+    '\n' +
+    '    <!--    </div>-->\n' +
+    '    <div class="ocomapany">\n' +
+    '        <h1 class="num-text">\n' +
+    '            О компании</h1>\n' +
+    '        <p>\n' +
+    '\n' +
+    '            Дорогие друзья и инвесторы! Мы рады приветствовать вас на сайте Blue Sky Investment. Выражаем Вам признательность за внимание и хотим сказать несколько слов о нашей компании. Blue Sky Investment - финансовая и инвестиционная консалтинговая компания мирового уровня. Учредитель и генеральный директор нашей компании - Нуриддинова Карина. Она профессиональный трейдер и имеет 7-летний опыт работы на бирже Forex. Несмотря на то, что наша компания была основана совсем недавно, мы можем с уверенностью сказать, что являемся лидерами рынка и уже работали с иностранными инвесторами со всего мира.компания blue sky торгует на нефть, золота, дорогими металлами и валютные пары.        </p>\n' +
+    '    </div>\n' +
+    '\n' +
+    '    <div class="container">\n' +
+    '        <div class="grid-wrapper">\n' +
+    '            <div class="grid-box hpyclients">\n' +
+    '                <h1>2500+</h1>\n' +
+    '                <h2>Счастливые клиенты</h2>\n' +
+    '            </div>\n' +
+    '            <div class="grid-box prjcompleted">\n' +
+    '                <h1>750+</h1>\n' +
+    '                <h2>Завершенных проектов</h2>\n' +
+    '            </div>\n' +
+    '            <div class="grid-box runningprj">\n' +
+    '                <h1>200+</h1>\n' +
+    '                <h2>Работающие проекты</h2>\n' +
+    '            </div>\n' +
+    '            <div class="grid-box designs">\n' +
+    '                <h1>7+</h1>\n' +
+    '                <h2>\n' +
+    '                    Год опыта </h2>\n' +
+    '            </div>\n' +
+    '        </div>\n' +
+    '        <div class="mockup-img">\n' +
+    '            <img class="mockup_image" src="img/about-us/karina.jpg"/></div>\n' +
+    '    </div>\n' +
+    '</section>\n' +
+    '\n' +
+    '\n' +
+    '<!-- projects-->\n' +
+    '\n' +
+    '<section class="projects" id="section3"  data-aos="zoom-in">\n' +
+    '    <h1>Наше рабочее пространство</h1>\n' +
+    '    <div class="project-images">\n' +
+    '        <div class="prj-img">\n' +
+    '            <img src="./img/bluesky/jahon.jpg" alt="">\n' +
+    '            <div class="details">\n' +
+    '                <h2>Инвестируйте в </h2>\n' +
+    '                <h1>торговлю</h1>\n' +
+    '                <i class="fa fa-arrow-circle-right"></i>\n' +
+    '            </div>\n' +
+    '\n' +
+    '        </div>\n' +
+    '        <div class="prj-img">\n' +
+    '            <img src="./img/bluesky/karinaandjahon.jpg" alt="">\n' +
+    '            <div class="details">\n' +
+    '                <h2>Инвестируйте в </h2>\n' +
+    '                <h1>торговлю</h1>\n' +
+    '                <i class="fa fa-arrow-circle-right"></i>\n' +
+    '            </div>\n' +
+    '        </div>\n' +
+    '        <div class="prj-img">\n' +
+    '            <img src="./img/bluesky/karinaAndCofe.jpg" alt="">\n' +
+    '            <div class="details">\n' +
+    '                <h2>Инвестируйте в </h2>\n' +
+    '                <h1>торговлю</h1>\n' +
+    '                <i class="fa fa-arrow-circle-right"></i>\n' +
+    '            </div>\n' +
+    '        </div>\n' +
+    '\n' +
+    '\n' +
+    '    </div>\n' +
+    '</section>\n' +
+    '<section  class="numbers"  >\n' +
+    '    <div class="who">\n' +
+    '        <h1 class="num-text">\n' +
+    '            КТО ТАКОЕ ТРЕЙДЕР И ЧЕМ ОН ДЕЛАЕТ?</h1>\n' +
+    '        <p>\n' +
+    '\n' +
+    '            Нам и нашей команде задают много таких вопросов: «Кто такой трейдер? Чем он занимается », и сегодня мы решили поделиться своим взглядом на это загадочное слово.\n' +
+    '            Трейдер в переводе с английского - это трейдер в самом широком смысле этого слова. Профессия трейдера очень специфична и не требует диплома экономиста. Стать трейдером может каждый, но для успеха недостаточно одного желания. Вы должны иметь особую предрасположенность и постоянно совершенствоваться. Вы соревнуетесь с лучшими из лучших,\n' +
+    '            и единственный показатель эффективности трейдера - биржевой доход.\n' +
+    '            Незнакомые со спецификой работы на финансовом рынке считают, что трейдер зарабатывает баснословные деньги в кратчайшие сроки. Достаточно только научиться «читать биржевые графики», освоить простые методы торговли, прочитать пару книг о трейдинге и пару миллионов в вашем кармане!\n' +
+    '\n' +
+    '            На самом деле это заблуждение, не имеющее ничего общего с реальностью. Трейдер может полгода терпеть убытки, а затем покрывать все неудачи серией блестящих сделок.\n' +
+    '        </p>\n' +
+    '\n' +
+    '    </div>\n' +
+    '</section>\n' +
+    '<!--team-->\n' +
+    '<section class="team" id="section4"  data-aos="flip-left">\n' +
+    '    <h1 class="team-h1" >Познакомьтесь с нашей командой</h1>\n' +
+    '    <div class="grid-wrapper">\n' +
+    '        <div class="team-mem">\n' +
+    '            <img src="./img/bluesky/karinaProfile.jpg" alt="">\n' +
+    '            <h1>Karina Nuriddinova</h1>\n' +
+    '            <h2>Генеральный директор и основатель</h2>\n' +
+    '\n' +
+    '        </div>\n' +
+    '        <div class="team-mem">\n' +
+    '            <img src="./img/bluesky/UmarjonProfile.jpg" alt="">\n' +
+    '            <h1>Умарджон</h1>\n' +
+    '            <h2>Управляющий делами</h2>\n' +
+    '\n' +
+    '        </div>\n' +
+    '        <div class="team-mem">\n' +
+    '            <img src="./img/bluesky/ustozProfil.jpg" alt="">\n' +
+    '            <h1>Toshtemirov Feruzbek</h1>\n' +
+    '            <h2>Лидер группы</h2>\n' +
+    '\n' +
+    '        </div>\n' +
+    '    </div>\n' +
+    '</section>\n' +
+    '\n' +
+    '<section class="blogs" id="section5"  data-aos="zoom-in-up">\n' +
+    '    <h1 class="blog-h1">Наши последние блоги</h1>\n' +
+    '    <div class="grid-wrapper">\n' +
+    '        <div class="blog">\n' +
+    '            <img src="./img/about-us/munisa-and-karina.jpg" alt="">\n' +
+    '            <h1>У нас грандиозная гость - Муниса</h1>\n' +
+    '            <p>Друзья, сегодня у нас в гостях была замечательная певица Муниса Ризаева.\n' +
+    '                Мы консультировались с ней по интересующим вопросам. Надеемся, вы многому научились для себя. Мы будем рады приветствовать вас снова.\n' +
+    '                <br>\n' +
+    '                <span style="margin-top: 4px">25.02.2021</span>\n' +
+    '                </p>\n' +
+    '            <br>\n' +
+    '\n' +
+    '            <br>\n' +
+    '            <a >Ещё</a>\n' +
+    '\n' +
+    '        </div>\n' +
+    '        <div class="blog">\n' +
+    '            <img src="./img/resurce/blog2.png" alt="">\n' +
+    '            <h1>КАКИМИ КАЧЕСТВАМИ ДОЛЖЕН ОБЛАДАТЬ ТРЕЙДЕР ?</h1>\n' +
+    '            <p>Друзья, сегодня мы с моей командой решили поделиться парочкой советов начинающим трейдерам.\n' +
+    '                Привлечение суммы, которую вы готовы проиграть.\n' +
+    '                На рынке форекс существует такая негласная закономерность, что начинающий трейдер всегда проигрывает\n' +
+    '                (на сленге трейдера - «сливает») свой первый депозит.\n' +
+    '                <br>\n' +
+    '                <span style="margin-top: 4px">18.02.2021</span>\n' +
+    '            <p id="dot3"></p>\n' +
+    '            <p id="more3">\n' +
+    '                Это связано с тем, что новичок\n' +
+    '                в торговле финансовыми инструментами еще не обладает всеми необходимыми торговыми навыками и психологией торговли. Некоторые брокеры форекс предлагают своим клиентам открыть так называемый центовый счет, который позволит им начать торговать реальными деньгами с суммы от 1 до 10 долларов.\n' +
+    '                Самоконтроль и торговая психология.\n' +
+    '                Профессиональные трейдеры знают, что такое психология трейдера. Новички на рынке форекс должны научиться контролировать свои эмоции, бороться со страхом и быть более решительными. Однако при этом следует быть осторожным и действовать по установленным правилам, а иногда просто нужно подождать.\n' +
+    '                Демо счет\n' +
+    '                Каждый профессиональный трейдер начинал свой торговый путь с торговли на демо-счете. Демо-счет - виртуальный счет, предоставляемый брокером для обучения тестированию торговой системы. Благодаря демо-счету начинающий трейдер может приобрести практические навыки торговли на финансовых рынках без риска потерять реальные деньги.\n' +
+    '                Совет профессиональных трейдеров: занимайтесь на демо-счете, пока ваша торговая стратегия не начнет приносить стабильную прибыль.\n' +
+    '                <br>\n' +
+    '                <span style="margin-top: 4px">18.02.2021</span>\n' +
+    '            </p>\n' +
+    '            <br>\n' +
+    '            <br>\n' +
+    '            <a  id="myBtnText3" style="cursor:pointer;"  onclick="myBtnText3()" >Ещё</a>\n' +
+    '\n' +
+    '        </div>\n' +
+    '        <div class="blog">\n' +
+    '            <img src="./img/about-us/austin-distel-DfjJMVhwH_8-unsplash.jpg" alt="">\n' +
+    '            <h1>\n' +
+    '                НЕСКОЛЬКО СЛОВ О НАШЕМ ОСНОВАТЕЛЕ</h1>\n' +
+    '            <p>И вот друзья сегодня мы хотели немного рассказать о нашем основателе.\n' +
+    '\n' +
+    '                Нуриддинова Карина - директор и основатель компании Bluesky.\n' +
+    '                Имеет более 7 лет профессионального трейдинга на международном рынке.\n' +
+    '                рынок позади нее. Имеет опыт работы с инвесторами в более\n' +
+    '                более 15 стран, более 100 успешных проектов. Под ее руководством\n' +
+    '                нам удалось добиться высоких результатов для наших инвесторов.\n' +
+    '                <br>\n' +
+    '                <span style="margin-top: 4px">18.02.2021</span>\n' +
+    '            </p>\n' +
+    '                <br>\n' +
+    '\n' +
+    '                <br>\n' +
+    '                <a >Ещё</a>\n' +
+    '        </div>\n' +
+    '    </div>\n' +
+    '</section>\n' +
+    '\n' +
+    '    <section class="map">\n' +
+    '        <div class="mapouter"><div class="gmap_canvas"><iframe width="1520" height="426" id="gmap_canvas" src="https://maps.google.com/maps?q=Tashkent%20,%20Uzbekistan%20Yunusabad%20district%20Osiyo,%2039&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies2.org">fmovies</a><br><style>.mapouter{position:relative;text-align:right;height:426px;width:1520px;}</style>\n' +
+    '            <a href="https://www.embedgooglemap.net">\n' +
+    '            </a>\n' +
+    '            <style>.gmap_canvas {overflow:hidden;background:none!important;height:426px;width:1520px;}</style></div></div>\n' +
+    '    </section>\n' +
+    '<section class="footer">\n' +
+    '    <div class="grid-wrappener">\n' +
+    '        <div class="col-4 footer1">\n' +
+    '            <h1>Blue Sky Investment</h1>\n' +
+    '            <p>Лучшие идеи, лучшие инвестиции, больше прибыли.\n' +
+    '                Это лучшие отношения успеха. </p>\n' +
+    '            <div class="soceal-profils">\n' +
+    '                <a href="https://www.youtube.com/channel/UCqtfzERelXeRcQlknqHFQ0Q?guided_help_flow=5" target="_blank">  <i class=  "fa fa-youtube"></i></a>\n' +
+    '                <a href="https://instagram.com/bluesky.uz?igshid=1s8ub10jaz1m3" target="_blank"><i class="fa fa-instagram"></i></a>\n' +
+    '                <a href="https://www.facebook.com/Blueskyuz-100693928728221" target="_blank"><i class="fa fa-facebook"></i></a>\n' +
+    '                <a href="https://t.me/blueskyinvestment" target="_blank"><i class="fa fa-telegram" ></i></a>\n' +
+    '            </div>\n' +
+    '        </div>\n' +
+    '        <div class="col-4 footer2">\n' +
+    '            <h1> Контактная информация</h1>\n' +
+    '            <h4>Ташкент, Узбекистан</h4>\n' +
+    '            <h4>Юнусабадский район </h4>\n' +
+    '            <h4>Осиё, 39 </h4>\n' +
+    '            <h4>+998955142727</h4>\n' +
+    '            <h4>08:00-20:00</h4>\n' +
+    '            <a href="blueSkyInvestment@gamil.com"><h4>blueSkyInvestment@gamil.com</h4></a>\n' +
+    '            <a href=""><h4></h4></a>\n' +
+    '        </div>\n' +
+    '    </div>\n' +
+    '    </div>\n' +
+    '</section>\n' +
+    '<i id="scrolltp" class="fa fa-arrow-up"></i>\n' +
+    '</section>'
 function languageUz(){
     document.getElementById("language").innerHTML=uz;
 }
